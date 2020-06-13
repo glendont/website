@@ -37,7 +37,7 @@ const Footer = () => {
                       verticalAlign: "center",
                       marginTop: "40px",
                     }}
-                    src="https://glendont.github.io/images/Game_picture.png"
+                    src="https://avatars1.githubusercontent.com/u/45989586?s=400&u=af9fc12c50aad8e49d5a4ae91af15a5edc9be2fb&v=4"
                     roundedCircle
                   />
                 </Col>
