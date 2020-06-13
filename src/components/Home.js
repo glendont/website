@@ -4,7 +4,6 @@ import IntroHeader from "./IntroHeader";
 import styled from "styled-components";
 import SkillsOverview from "./SkillsOverview";
 import FeaturedProjects from "./FeaturedProjects";
-import btoImage from "./Glendon_ProfilePic.png";
 import SlickSlider from "./SlickSlider";
 import FeaturedInternships from "./FeaturedInternships";
 

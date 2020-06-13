@@ -12,7 +12,7 @@ import { ProjectDialog } from "./ProjectDialog";
 import { useHoverLeave } from "./customHooks/useHoverLeave";
 import { useWindowDimensions } from "./customHooks/useWindowDimensions";
 import Projects from "./Projects";
-import btoImage from "./Glendon_ProfilePic.png";
+
 import seagateImage from "./intern_seagate.jpg";
 import deloitteImage from "./intern_deloitte.jpg";
 import dstaImage from "./intern_dsta.jpg";

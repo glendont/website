@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
-
+import glendonpic from "./profilepic.png";
 const Styles = styled.div`
   .header {
     background-color: green;
@@ -47,7 +47,7 @@ const IntroHeader = () => {
                     textalign: "center",
                     verticalAlign: "center",
                   }}
-                  src="https://glendont.github.io/images/Game_picture.png"
+                  src="https://avatars1.githubusercontent.com/u/45989586?s=400&u=af9fc12c50aad8e49d5a4ae91af15a5edc9be2fb&v=4"
                   roundedCircle
                 />{" "}
               </Col>
