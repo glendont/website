@@ -57,9 +57,10 @@ const SearchProjects = () => {
               style={{
                 textAlign: "center",
                 paddingTop: "30px",
-                fontFamily: "Roboto",
-                fontWeight: "650",
+                fontFamily: "Poppins",
+                fontWeight: "bold",
                 letterSpacing: "0.05em",
+                textShadow: "0px 1px, 1px 0px, 1px 1px",
                 color: "#102A42",
               }}
             >
@@ -69,6 +70,8 @@ const SearchProjects = () => {
             <p
               className="lead text"
               style={{
+                fontFamily: "Poppins",
+                fontWeight: "700",
                 textAlign: "justify",
                 marginTop: "30px",
               }}

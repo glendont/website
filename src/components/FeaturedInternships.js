@@ -38,9 +38,13 @@ const FeaturedInternships = () => {
                 style={{
                   textAlign: "center",
                   paddingTop: "50px",
-                  fontFamily: "Roboto",
-                  fontWeight: "650",
+                  // fontFamily: "Roboto",
+                  fontFamily: "Poppins",
+                  textShadow: "0px 1px, 1px 0px, 1px 1px",
+                  // fontWeight: "650",
+                  fontWeight: "bold",
                   letterSpacing: "0.05em",
+                  // letterSpacing: "0.05em",
                   color: "#102A42",
                 }}
               >
@@ -49,6 +53,9 @@ const FeaturedInternships = () => {
               <p
                 className="lead text"
                 style={{
+                  fontFamily: "Poppins",
+                  fontWeight: "700",
+                  letterSpacing: "0.001em",
                   textAlign: "justify",
                   marginTop: "30px",
                   marginBottom: "30px",

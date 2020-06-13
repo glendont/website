@@ -28,10 +28,11 @@ const SlickSlider = () => {
               <h1
                 style={{
                   textAlign: "center",
-                  paddingTop: "40px",
+                  paddingTop: "50px",
                   paddingBottom: "40px",
-                  fontFamily: "Roboto",
-                  fontWeight: "650",
+                  fontFamily: "Poppins",
+                  textShadow: "0px 1px, 1px 0px, 1px 1px",
+                  fontWeight: "bold",
                   letterSpacing: "0.05em",
                   color: "#102A42",
                 }}
@@ -41,6 +42,9 @@ const SlickSlider = () => {
               <p
                 className="lead text"
                 style={{
+                  fontFamily: "Poppins",
+                  fontWeight: "700",
+                  letterSpacing: "0.001em",
                   textAlign: "justify",
                   marginTop: "-30px",
                   marginBottom: "-5",

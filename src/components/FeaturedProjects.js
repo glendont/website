@@ -32,8 +32,9 @@ const FeaturedProjects = () => {
                 style={{
                   textAlign: "center",
                   paddingTop: "50px",
-                  fontFamily: "Roboto",
-                  fontWeight: "650",
+                  fontFamily: "Poppins",
+                  textShadow: "0px 1px, 1px 0px, 1px 1px",
+                  fontWeight: "bold",
                   letterSpacing: "0.05em",
                   color: "#102A42",
                 }}
@@ -43,6 +44,8 @@ const FeaturedProjects = () => {
               <p
                 className="lead text"
                 style={{
+                  fontFamily: "Poppins",
+                  fontWeight: "700",
                   textAlign: "justify",
                   marginTop: "30px",
                   marginBottom: "30px",

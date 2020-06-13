@@ -16,7 +16,6 @@ const Styles = styled.div`
 
   .text {
     // font-family: "Open Sans";
-    padding: 5%;
   }
 `;
 
@@ -32,8 +31,10 @@ const SkillsOverview = () => {
                   style={{
                     textAlign: "center",
                     paddingTop: "40px",
-                    fontFamily: "Roboto",
-                    fontWeight: "650",
+                    paddingBottom: "20px",
+                    fontFamily: "Poppins",
+                    fontWeight: "bold",
+                    textShadow: "0px 1px, 1px 0px, 1px 1px",
                     letterSpacing: "0.05em",
                     color: "#102A42",
                   }}
@@ -43,9 +44,11 @@ const SkillsOverview = () => {
                 <p
                   className="lead text"
                   style={{
+                    fontFamily: "Poppins",
+                    fontWeight: "700",
+                    letterSpacing: "0.001em",
                     textAlign: "justify",
-                    marginTop: "-30px",
-                    marginBottom: "-20px",
+                    paddingBottom: "20px",
                   }}
                 >
                   {" "}

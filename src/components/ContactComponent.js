@@ -47,7 +47,13 @@ const ContactComponent = () => {
                   <Card.Body>
                     <Card.Subtitle
                       className="mb-2 text-muted"
-                      style={{ textAlign: "left" }}
+                      style={{
+                        padding: "2%",
+                        textAlign: "justify",
+                        fontWeight: "700",
+                        fontFamily: "poppins",
+                        letterSpacing: "0.05em",
+                      }}
                     >
                       I'm currently taking on freelance work. If you are
                       interested in hiring me for your project please use the
@@ -58,7 +64,12 @@ const ContactComponent = () => {
                     <br />
                     <Card.Subtitle
                       className="mb-2 text-muted"
-                      style={{ textAlign: "center" }}
+                      style={{
+                        textAlign: "center",
+                        fontWeight: "900",
+                        fontFamily: "poppins",
+                        letterSpacing: "0.08em",
+                      }}
                     >
                       You can also find me on the following channels
                     </Card.Subtitle>

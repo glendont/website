@@ -7,12 +7,9 @@ import Image from "react-bootstrap/Image";
 import glendonpic from "./profilepic.png";
 const Styles = styled.div`
   .header {
-    background-color: green;
   }
   .textContainer {
     padding: 10%;
-    // margin-top: -7%;
-    // background-color: blue;
   }
 
   .text {
@@ -64,7 +61,14 @@ const IntroHeader = () => {
                     Glendon Thaiw,{" "}
                   </h2>
 
-                  <p className="lead text-white-50">
+                  <p
+                    className="lead text-white-50"
+                    style={{
+                      fontFamily: "Poppins",
+                      fontWeight: "bold",
+                      letterSpacing: "0.01em",
+                    }}
+                  >
                     A computer science sophmore from the Renaissance Engineering
                     Programme at Nanyang Technological University. I am
                     extremely fascinated by the intersection between Technology

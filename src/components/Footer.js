@@ -47,7 +47,14 @@ const Footer = () => {
               <Row style={{ height: "50px" }}>
                 {/* <Col></Col> */}
                 <Col className="d-flex justify-content-center text-center m-auto">
-                  <h1 className="lead">
+                  <h1
+                    className="lead"
+                    style={{
+                      fontWeight: "500",
+                      fontFamily: "poppins",
+                      letterSpacing: "0.05em",
+                    }}
+                  >
                     {" "}
                     Interested in a potential project collaboration?
                   </h1>
@@ -55,7 +62,17 @@ const Footer = () => {
                 {/* <Col></Col> */}
               </Row>
               <Row xs={1} sm={1} style={{ height: "100px" }}>
-                <p className="lead" style={{ textAlign: "center" }}>
+                <p
+                  className="lead"
+                  style={{
+                    paddingTop: "10px",
+                    textAlign: "center",
+                    fontWeight: "400",
+                    fontFamily: "poppins",
+                    letterSpacing: "0.04em",
+                    fontSize: "16px",
+                  }}
+                >
                   To start an initial chat, just drop me an email at
                   glendon888@gmail.com or use the form on the contact page.
                 </p>

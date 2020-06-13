@@ -11,8 +11,9 @@ const Contact = () => {
             style={{
               textAlign: "center",
               paddingTop: "50px",
-              fontFamily: "Roboto",
-              fontWeight: "650",
+              fontFamily: "Poppins",
+              fontWeight: "bold",
+              textShadow: "0px 1px, 1px 0px, 1px 1px",
               letterSpacing: "0.05em",
               color: "#102A42",
             }}
