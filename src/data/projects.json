@@ -1,0 +1,64 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "name": "BTOAnywhere",
+      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "short_desc": "A one-stop site to assist couples with choosing",
+      "tags": ["React", "Express", "MongoDB", "Node"],
+      "image": "https://i.ibb.co/rfrF3Mk/intern-deloitte.jpg",
+      "demo": ""
+    },
+    {
+      "id": 2,
+      "name": "Covid-19 Analysis",
+      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "short_desc": "A one-stop site to assist couples with choosing",
+      "tags": [
+        "Data Science",
+        "Machine Learning",
+        "Python",
+        "Pandas",
+        "Sklearn"
+      ],
+      "image": "https://i.ibb.co/72xWMVz/intern-seagate.jpg",
+      "demo": ""
+    },
+    {
+      "id": 3,
+      "name": "Project 3",
+      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "short_desc": "A one-stop site to assist couples with choosing",
+      "tags": ["React", "Express", "MongoDB", "Node"],
+      "image": "https://i.ibb.co/rfrF3Mk/intern-deloitte.jpg",
+      "demo": ""
+    },
+    {
+      "id": 4,
+      "name": "Project 3",
+      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "short_desc": "A one-stop site to assist couples with choosing",
+      "tags": ["React", "Express", "MongoDB", "Node"],
+      "image": "https://i.ibb.co/72xWMVz/intern-seagate.jpg",
+      "demo": ""
+    },
+    {
+      "id": 3,
+      "name": "Project 3",
+      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "short_desc": "A one-stop site to assist couples with choosing",
+      "tags": ["React", "Express", "MongoDB", "Node"],
+      "image": "https://i.ibb.co/zhQnfzm/intern-dsta.jpg",
+      "demo": ""
+    },
+    {
+      "id": 3,
+      "name": "Project 3",
+      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "short_desc": "A one-stop site to assist couples with choosing",
+      "tags": ["React", "Express", "MongoDB", "Node"],
+      "image": "https://i.ibb.co/zhQnfzm/intern-dsta.jpg",
+      "demo": ""
+    }
+  ]
+}

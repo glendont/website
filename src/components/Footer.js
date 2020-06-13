@@ -1,0 +1,88 @@
+import React, { Fragment } from "react";
+import styled from "styled-components";
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+const Styles = styled.div`
+  .footer-div {
+    padding: 0 0;
+    background-color: "#41A4F5";
+  }
+
+  .blue-bg {
+    background-color: "#41A4F5";
+  }
+`;
+
+const Footer = () => {
+  return (
+    <Fragment>
+      <Styles>
+        <div className="footer-div">
+          <footer
+            className="footer mt-auto py-3 text-white blue-bg"
+            style={{ backgroundColor: "#41A4F5" }}
+          >
+            <Container>
+              <Row>
+                <Col></Col>
+                <Col className="d-flex justify-content-center text-center m-auto">
+                  {" "}
+                  <Image
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      textalign: "center",
+                      verticalAlign: "center",
+                      marginTop: "40px",
+                    }}
+                    src="https://glendont.github.io/images/Game_picture.png"
+                    roundedCircle
+                  />
+                </Col>
+                <Col></Col>
+              </Row>
+
+              <Row style={{ height: "50px" }}>
+                {/* <Col></Col> */}
+                <Col className="d-flex justify-content-center text-center m-auto">
+                  <h1 className="lead">
+                    {" "}
+                    Interested in a potential project collaboration?
+                  </h1>
+                </Col>
+                {/* <Col></Col> */}
+              </Row>
+              <Row xs={1} sm={1} style={{ height: "100px" }}>
+                <p className="lead" style={{ textAlign: "center" }}>
+                  To start an initial chat, just drop me an email at
+                  glendon888@gmail.com or use the form on the contact page.
+                </p>
+                <br></br>
+              </Row>
+              <Row xs={1} sm={1} style={{ marginBottom: "20px" }}>
+                <Col
+                  xs={12}
+                  className="d-flex justify-content-center text-center m-auto"
+                >
+                  {/* <a href="/contact">
+                    <button
+                      type="button"
+                      class="btn btn-lg btn-primary"
+                      style={{ marginTop: "15px" }}
+                    >
+                      Let's Talk
+                    </button>
+                  </a> */}
+                </Col>
+              </Row>
+            </Container>
+          </footer>
+        </div>
+      </Styles>
+    </Fragment>
+  );
+};
+
+export default Footer;
