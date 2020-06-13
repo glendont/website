@@ -39,9 +39,9 @@ const SearchProjects = () => {
   const [type, setType] = useState("All");
 
   const handleChange = (event) => {
-    if (event.target.value === "All") {
+    if (event.target.value === "1") {
       projectContext.searchProjects(projectAll);
-    } else if (event.target.value === "Software Engineering") {
+    } else if (event.target.value === "2") {
       projectContext.searchProjects(projectSWE);
     } else {
       projectContext.searchProjects(projectMachineLearning);
@@ -93,13 +93,9 @@ const SearchProjects = () => {
                 onChange={handleChange}
                 label="Categories"
               >
-                <MenuItem value="All">All Projects</MenuItem>
-                <MenuItem value="Software Engineering">
-                  Software Engineering Projects
-                </MenuItem>
-                <MenuItem value="Machine Learning">
-                  Machine Learning Projects
-                </MenuItem>
+                <MenuItem value="1">All Projects</MenuItem>
+                <MenuItem value="2">Software Engineering Projects</MenuItem>
+                <MenuItem value="3">Machine Learning Projects</MenuItem>
               </Select>
             </FormControl>
           </Row>
