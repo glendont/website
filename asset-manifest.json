@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.7859457a.chunk.css",
+    "main.js": "/website/static/js/main.5efbb9f2.chunk.js",
+    "main.js.map": "/website/static/js/main.5efbb9f2.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.84cf5a30.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.84cf5a30.js.map",
+    "static/js/2.b394b1eb.chunk.js": "/website/static/js/2.b394b1eb.chunk.js",
+    "static/js/2.b394b1eb.chunk.js.map": "/website/static/js/2.b394b1eb.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.ca0cf6a51f3b3019d63dcbc8702278c2.js": "/website/precache-manifest.ca0cf6a51f3b3019d63dcbc8702278c2.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/main.7859457a.chunk.css.map": "/website/static/css/main.7859457a.chunk.css.map",
+    "static/js/2.b394b1eb.chunk.js.LICENSE.txt": "/website/static/js/2.b394b1eb.chunk.js.LICENSE.txt",
+    "static/media/CRS.gif": "/website/static/media/CRS.d918aeda.gif",
+    "static/media/Glendon_ProfilePic.png": "/website/static/media/Glendon_ProfilePic.98313b59.png",
+    "static/media/datasci.png": "/website/static/media/datasci.c98883e5.png",
+    "static/media/intern_amazon.jpg": "/website/static/media/intern_amazon.55f13e43.jpg",
+    "static/media/intern_deloitte.jpg": "/website/static/media/intern_deloitte.40900be6.jpg",
+    "static/media/intern_dsta.jpg": "/website/static/media/intern_dsta.378efc6d.jpg",
+    "static/media/intern_seagate.jpg": "/website/static/media/intern_seagate.442fba98.jpg",
+    "static/media/logo.svg": "/website/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84cf5a30.js",
+    "static/js/2.b394b1eb.chunk.js",
+    "static/css/main.7859457a.chunk.css",
+    "static/js/main.5efbb9f2.chunk.js"
+  ]
+}
