@@ -17,9 +17,11 @@ const Styles = styled.div`
   a,
   .navbar-brand,
   .navbar-nav .nav-link {
+    font-family: poppins;
     color: white;
     font-size: 20px;
     &:hover {
+      font-family: poppins;
       color: #bbb;
     }
   }
