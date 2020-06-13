@@ -94,8 +94,8 @@ const SearchProjects = () => {
                 label="Categories"
               >
                 <MenuItem value="All">All Projects</MenuItem>
-                <MenuItem value="Software Engineering Projects">
-                  Software Engineering
+                <MenuItem value="Software Engineering">
+                  Software Engineering Projects
                 </MenuItem>
                 <MenuItem value="Machine Learning">
                   Machine Learning Projects
