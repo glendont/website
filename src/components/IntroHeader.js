@@ -42,8 +42,8 @@ const IntroHeader = () => {
               >
                 <Image
                   style={{
-                    width: "250px",
-                    height: "250px",
+                    width: "300%",
+                    height: "300%",
                     textalign: "center",
                     verticalAlign: "center",
                   }}
