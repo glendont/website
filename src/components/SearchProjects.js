@@ -131,6 +131,7 @@ const SearchProjects = () => {
               short_desc={project.short_desc}
               tags={project.tags}
               link={project.link}
+              web={project.web}
             />
             <Card.Body>
               <Card.Title>

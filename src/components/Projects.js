@@ -58,6 +58,7 @@ const Projects = (props) => {
         close={handleClose}
         image={props.image}
         tags={props.tags}
+        web={props.web}
       />
       {hovered ? (
         <div className="projectWordedDiv" style={{ height: "230px" }}>

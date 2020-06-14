@@ -14,7 +14,8 @@
       ],
       "image": "https://images.unsplash.com/photo-1585559605575-549e9ce78300?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "demo": "",
-      "link": "https://github.com/glendont/covid19-datascience-analysis"
+      "link": "https://github.com/glendont/covid19-datascience-analysis",
+      "web": "none"
     },
     {
       "id": 3,
@@ -24,7 +25,8 @@
       "tags": ["React", "Flask", "Data Science", "Machine Learning", "NLP"],
       "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2249&q=80",
       "demo": "",
-      "link": "https://github.com/cy002/UBS"
+      "link": "https://github.com/cy002/UBS",
+      "web": "none"
     },
     {
       "id": 4,
@@ -34,7 +36,8 @@
       "tags": ["Django", "Data Science", "Machine Learning"],
       "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "demo": "",
-      "link": "https://github.com/glendont/company-recommender-system"
+      "link": "https://github.com/glendont/company-recommender-system",
+      "web": "https://companyrecommendersystem.herokuapp.com/"
     },
     {
       "id": 3,
@@ -44,7 +47,8 @@
       "tags": ["Python", "NLP", "DialogFlow"],
       "image": "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1361&q=80",
       "demo": "",
-      "link": "https://github.com/glendont/NLP-telegram-bot"
+      "link": "https://github.com/glendont/NLP-telegram-bot",
+      "web": "none"
     }
   ],
   "techs": [

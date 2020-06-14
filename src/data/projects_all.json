@@ -4,11 +4,12 @@
       "id": 1,
       "name": "BTOAnywhere",
       "desc": "This project aims to assist newly-wed/young couples in Singapore with their BTO (build-to-order) application by providing them with a one-stop-shop of all relevant and important information about purchasing a BTO flat in Singapore.",
-      "short_desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "short_desc": "A one-stop site to assist couples with choosing their Build To Order flat",
       "tags": ["React", "Express", "MongoDB", "Node"],
       "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "demo": "https://i.ibb.co/52Hp0D4/CRS.gif",
-      "link": "https://github.com/johann95ko/btoExpressApp"
+      "link": "https://github.com/johann95ko/btoExpressApp",
+      "web": "https://btoanywhere.herokuapp.com/"
     },
     {
       "id": 2,
@@ -24,7 +25,8 @@
       ],
       "image": "https://images.unsplash.com/photo-1585559605575-549e9ce78300?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "demo": "",
-      "link": "https://github.com/glendont/covid19-datascience-analysis"
+      "link": "https://github.com/glendont/covid19-datascience-analysis",
+      "web": "none"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "tags": ["React", "Flask", "Data Science", "Machine Learning", "NLP"],
       "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2249&q=80",
       "demo": "",
-      "link": "https://github.com/cy002/UBS"
+      "link": "https://github.com/cy002/UBS",
+      "web": "none"
     },
     {
       "id": 4,
@@ -44,7 +47,8 @@
       "tags": ["Django", "Data Science", "Machine Learning"],
       "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "demo": "",
-      "link": "https://github.com/glendont/company-recommender-system"
+      "link": "https://github.com/glendont/company-recommender-system",
+      "web": "https://companyrecommendersystem.herokuapp.com/"
     },
     {
       "id": 3,
@@ -54,7 +58,8 @@
       "tags": ["Python", "NLP", "DialogFlow"],
       "image": "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1361&q=80",
       "demo": "",
-      "link": "https://github.com/glendont/NLP-telegram-bot"
+      "link": "https://github.com/glendont/NLP-telegram-bot",
+      "web": "none"
     },
     {
       "id": 3,
@@ -64,7 +69,8 @@
       "tags": ["Python", "Plotly", "Bokeh", "Panel"],
       "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "demo": "",
-      "link": "https://github.com/glendont/bls-dashboard"
+      "link": "https://github.com/glendont/bls-dashboard",
+      "web": "none"
     }
   ],
   "techs": [

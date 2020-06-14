@@ -19,6 +19,7 @@ import Badge from "react-bootstrap/Badge";
 import amazonPic from "./intern_amazon.jpg";
 import AccessAlarmsIcon from "@material-ui/icons/AccessAlarms";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import WebIcon from "@material-ui/icons/Web";
 
 const styles = (theme) => ({
   root: {
@@ -66,6 +67,7 @@ const DialogActions = withStyles((theme) => ({
 
 export const ProjectDialog = (props) => {
   var link = props.link;
+  var web = props.web;
   if (!link) {
     link = "https://github.com/glendont";
   }
@@ -149,96 +151,35 @@ export const ProjectDialog = (props) => {
                 className="lead"
                 style={{ fontSize: "15px", letterSpacing: "0.04em" }}
               >
-                <div>{props.desc}</div>
-                <div style={{ float: "right" }}>
-                  <a href={link} style={{ color: "#6C757D" }}>
-                    {" "}
-                    <GitHubIcon fontSize="small" />{" "}
-                  </a>
-                </div>
+                <div style={{ marginBottom: "30px" }}>{props.desc}</div>
+
+                {props.web !== "none" ? (
+                  <div style={{ float: "right" }}>
+                    <a href={link} style={{ color: "#6C757D" }}>
+                      {" "}
+                      <GitHubIcon style={{ fontSize: "25px" }} />{" "}
+                    </a>
+
+                    <a href={web} style={{ color: "#6C757D" }}>
+                      {" "}
+                      <WebIcon
+                        style={{ fontSize: "33px", marginBottom: "-2px" }}
+                      />{" "}
+                    </a>
+                  </div>
+                ) : (
+                  <div style={{ float: "right" }}>
+                    <a href={link} style={{ color: "#6C757D" }}>
+                      {" "}
+                      <GitHubIcon style={{ fontSize: "25px" }} />{" "}
+                    </a>
+                  </div>
+                )}
               </Card.Text>
             </Card.Body>
           </Card>
         </DialogContent>
       </Dialog>
     </div>
-    // <div>
-    //   <Dialog
-    //     fullWidth={Boolean(true)}
-    //     maxWidth="lg"
-    //     onClose={props.close}
-    //     aria-labelledby="customized-dialog-title"
-    //     open={props.state}
-    //     id="dialog-box-div"
-    //   >
-    //     <DialogTitle
-    //       id="customized-dialog-title"
-    //       onClose={props.close}
-    //       style={{ textAlign: "center" }}
-    //     >
-    //       <h4 style={{ marginTop: "5px" }}> Projects</h4>
-    //     </DialogTitle>
-
-    //     <DialogContent dividers id="dialog-content-div">
-    //       <Row>
-    //         <Col className="project-demo" sm={7}>
-    //           {" "}
-    //           <img src={CRS} style={{ height: "100%", width: "90%" }} />{" "}
-    //         </Col>
-
-    //         <Col className="project-demo-right" sm={5}>
-    //           <h1
-    //             className="lead"
-    //             style={{
-    //               marginTop: "40px",
-    //               marginBottom: "20px",
-    //               fontSize: "26px",
-    //             }}
-    //           >
-    //             <strong>{props.title} </strong>
-    //           </h1>
-    //           <p style={{ marginTop: "6%" }}> {props.desc}</p>
-    //           <p style={{ marginTop: "0" }}>
-    //             {" "}
-    //             On the Data Science arena, PCA and T-SNE was implemented for
-    //             dimensionality reduction as well as latent feature engineering.
-    //             The latent features are then clustered using the
-    //             K-Nearest-Neighbors (KNN) algorithms in order to generate the
-    //             more similar data points.
-    //           </p>
-
-    //           <p style={{ marginTop: "0" }}>
-    //             {" "}
-    //             On the Data Science arena, PCA and T-SNE was implemented for
-    //             dimensionality reduction as well as latent feature engineering.
-    //             The latent features are then clustered using the
-    //             K-Nearest-Neighbors (KNN) algorithms in order to generate the
-    //             more similar data points.
-    //             The machine learning model is encapsulated into a back-end API
-    //             using the Django web development framework. When used in
-    //             conjunction with a front-end user interface, it allows users to
-    //             input key characteristics of their company, and get competitor
-    //             companies returned to them.
-    //           </p>
-
-    //           <p style={{ marginTop: "10%" }}>
-    //             Try it yourself at
-    //             https://companyrecommendersystem.herokuapp.com/
-    //           </p>
-    //         </Col>
-    //       </Row>
-    //     </DialogContent>
-    //     <DialogActions>
-    //       <Button
-    //         autoFocus
-    //         onClick={props.close}
-    //         onClick={() => window.open(link)}
-    //         color="primary"
-    //       >
-    //         View Project
-    //       </Button>
-    //     </DialogActions>
-    //   </Dialog>
-    // </div>
   );
 };
