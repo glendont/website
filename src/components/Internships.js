@@ -49,12 +49,19 @@ const Internships = (props) => {
     <div className={mainClassName} ref={ref}>
       <InternDialog
         title={props.title}
+        company={props.company}
+        department={props.department}
+        role={props.role}
+        date={props.date}
+        image={props.image}
         link={props.link}
         para1={props.para1}
         para2={props.para2}
         para3={props.para3}
         state={open}
         close={handleClose}
+        contributions_1={props.contributions_1}
+        contributions_2={props.contributions_2}
       />
       {hovered ? (
         <div className="projectWordedDiv" style={{ height: "230px" }}>

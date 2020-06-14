@@ -19,7 +19,7 @@
       "id": 3,
       "name": "Cyber Security Dashboard",
       "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
-      "short_desc": "A one-stop site to assist couples with choosing",
+      "short_desc": "Dashboard for cybersecurity practitioners to evaluate common vulnerabilities using machine learning",
       "tags": ["React", "Flask", "Data Science", "Machine Learning", "NLP"],
       "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2249&q=80",
       "demo": ""
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Competitors Generator",
       "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
-      "short_desc": "A one-stop site to assist couples with choosing",
+      "short_desc": "A web application to discover competitor companies using machine learning algorithms",
       "tags": ["Django", "Data Science", "Machine Learning"],
       "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
       "demo": ""

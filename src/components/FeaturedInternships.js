@@ -7,7 +7,6 @@ import Container from "react-bootstrap/Container";
 import { Tooltip as tooltip, OverlayTrigger, Button } from "react-bootstrap";
 import styled from "@emotion/styled/macro";
 import { Animated } from "react-animated-css";
-
 import { ProjectDialog } from "./ProjectDialog";
 import { useHoverLeave } from "./customHooks/useHoverLeave";
 import { useWindowDimensions } from "./customHooks/useWindowDimensions";
@@ -25,7 +24,6 @@ const FeaturedInternships = () => {
   return (
     <div
       style={{
-        // backgroundColor: "#F7F8FA",
         backgroundColor: "white",
         paddingBottom: "30px",
       }}
@@ -38,13 +36,10 @@ const FeaturedInternships = () => {
                 style={{
                   textAlign: "center",
                   paddingTop: "50px",
-                  // fontFamily: "Roboto",
                   fontFamily: "Poppins",
                   textShadow: "0px 1px, 1px 0px, 1px 1px",
-                  // fontWeight: "650",
                   fontWeight: "bold",
                   letterSpacing: "0.05em",
-                  // letterSpacing: "0.05em",
                   color: "#102A42",
                 }}
               >
@@ -92,11 +87,15 @@ const FeaturedInternships = () => {
                   css="projectIndividualBox"
                   image={amazonImage}
                   company="Amazon Web Services"
-                  department="Analytics Business Solutions"
+                  department="Digital Customers and Regional Expansion"
+                  role="Software Engineering Intern"
                   description="A one-stop site to assist couples with choosing their Build To Order flat."
                   tools="MongoDB, Express, React, NodeJS"
                   para1="This is what the project is about"
                   link="https://github.com/Larrystamford/"
+                  date="Aug 2020 - Current"
+                  contributions_1="Built a big data network packet analysis tool with the Elastic Stack (Elasticsearch, Logstash, Kibana) beats framework"
+                  contributions_2="Optimized mass hard drives testing on an international collaboration with Seagate Thailand"
                 />
 
                 <Card.Body>
@@ -151,10 +150,14 @@ const FeaturedInternships = () => {
                   image={seagateImage}
                   company="Seagate Technology"
                   department="Analytics Business Solutions"
+                  role="Software Engineering Intern"
                   description="A one-stop site to assist couples with choosing their Build To Order flat."
                   tools="MongoDB, Express, React, NodeJS"
                   para1="This is what the project is about"
                   link="https://github.com/Larrystamford/"
+                  date="May 2020 - Aug 2020"
+                  contributions_1="Built a big data network packet analysis tool with the Elastic Stack (Elasticsearch, Logstash, Kibana) beats framework"
+                  contributions_2="Optimized mass hard drives testing on an international collaboration with Seagate Thailand"
                 />
 
                 <Card.Body>
@@ -183,7 +186,7 @@ const FeaturedInternships = () => {
                           marginLeft: "3px",
                         }}
                       />{" "}
-                      {"  "} May 2020 - Aug 2020
+                      {"  "}May 2020 - Aug 2020
                     </p>{" "}
                   </Card.Title>
 
@@ -213,10 +216,14 @@ const FeaturedInternships = () => {
                   image={deloitteImage}
                   company="Deloitte Consulting"
                   department="Strategic Risk"
+                  role="Data Science Intern"
                   description="A one-stop site to assist couples with choosing their Build To Order flat."
                   tools="MongoDB, Express, React, NodeJS"
                   para1="This is what the project is about"
                   link="https://github.com/Larrystamford/"
+                  date="Dec 2019 - May 2020"
+                  contributions_1="Derived data-driven insights using data science tools to analyze key trends in businesses across market sectors"
+                  contributions_2="Analyzed causalrelationships through Structural Equation Modelling with R"
                 />
 
                 <Card.Body>
@@ -269,11 +276,18 @@ const FeaturedInternships = () => {
                 <Internships
                   css="projectIndividualBox"
                   image={dstaImage}
-                  title="Defence Science Technology Agency"
-                  description="Advanced Systems"
+                  company="Defence Science Technology Agency"
+                  department="Advanced Systems"
+                  role="Software Engineering Intern"
+                  description="A one-stop site to assist couples with choosing their Build To Order flat."
                   tools="MongoDB, Express, React, NodeJS"
                   para1="This is what the project is about"
                   link="https://github.com/Larrystamford/"
+                  date="Dec 2018 - Feb 2019"
+                  contributions_1="Developed a virtual chatbot to facilitate Natural Language
+                  Processing (NLP) for both batch and live inputs"
+                  contributions_2="• Integrated open-source systems incorporating technologies
+                  such as DialogFlow, Heroku, Github and Integromat"
                 />
 
                 <Card.Body>
