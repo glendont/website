@@ -37,7 +37,7 @@ const SlickSlider = () => {
                   color: "#102A42",
                 }}
               >
-                Featured Testimonals
+                Testimonials
               </h1>
               <p
                 className="lead text"

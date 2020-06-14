@@ -223,8 +223,8 @@ const FeaturedProjects = () => {
               </Card>
             </Col>
           </Row>
-          <Row style={{ justifyContent: "center", paddingTop: "30px" }}>
-            <a href="/projects">
+          <Row style={{ justifyContent: "center", paddingTop: "10px" }}>
+            <Link to="/projects">
               {" "}
               <button
                 href="/projects"
@@ -239,7 +239,7 @@ const FeaturedProjects = () => {
               >
                 View all Projects
               </button>
-            </a>
+            </Link>
           </Row>
         </Container>
       </Fragment>

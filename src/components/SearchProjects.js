@@ -1,4 +1,5 @@
 import React, { Fragment, useState, useContext, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Projects from "./Projects";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
@@ -10,7 +11,6 @@ import ProjectContext from "./context/projectContext";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
 
-import ButtonGroup from "react-bootstrap/ButtonGroup";
 import newData from "../data/nextdata.json";
 import projectMachineLearning from "../data/projects_ml.json";
 import projectAll from "../data/projects_all.json";
@@ -20,7 +20,6 @@ import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
-import FormHelperText from "@material-ui/core/FormHelperText";
 
 const SearchProjects = () => {
   const useStyles = makeStyles((theme) => ({

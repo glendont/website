@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -74,7 +75,9 @@ const IntroHeader = () => {
                     extremely fascinated by the intersection between Technology
                     and Business.{" "}
                   </p>
-                  <a href="/contact">
+
+                  <Link to="/contact">
+                    {" "}
                     <button
                       type="button"
                       class="btn btn-lg btn-primary"
@@ -82,7 +85,7 @@ const IntroHeader = () => {
                     >
                       Contact Me
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </Col>
               <Col xs={0} sm={0} md={1} lg={1} xl={2}></Col>
