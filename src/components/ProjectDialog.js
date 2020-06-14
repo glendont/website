@@ -119,14 +119,14 @@ export const ProjectDialog = (props) => {
                   <b> Technologies</b>
                 </h1>
                 <b>
-                  {props.tags[0] ? (
+                  {props.tags ? (
                     <Badge pill variant="secondary">
-                      {props.tags[0]} {"   "}
+                      {props.tags} {"   "}
                     </Badge>
                   ) : (
                     <Fragment> </Fragment>
                   )}
-                  {props.tags[1] ? (
+                  {/* {props.tags[1] ? (
                     <Badge pill variant="secondary">
                       {props.tags[1]}
                       {"   "}
@@ -141,23 +141,7 @@ export const ProjectDialog = (props) => {
                     </Badge>
                   ) : (
                     <Fragment> </Fragment>
-                  )}
-                  {props.tags[3] ? (
-                    <Badge pill variant="secondary">
-                      {props.tags[3]}
-                      {"   "}
-                    </Badge>
-                  ) : (
-                    <Fragment> </Fragment>
-                  )}
-                  {props.tags[4] ? (
-                    <Badge pill variant="secondary">
-                      {props.tags[4]}
-                      {"   "}
-                    </Badge>
-                  ) : (
-                    <Fragment> </Fragment>
-                  )}
+                  )}*/}
                 </b>{" "}
                 <hr></hr>
               </Card.Text>
