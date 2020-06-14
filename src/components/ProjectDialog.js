@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
@@ -67,9 +67,21 @@ const DialogActions = withStyles((theme) => ({
 }))(MuiDialogActions);
 
 export const ProjectDialog = (props) => {
-  const { tags } = props;
+  var tags = props.tags;
   var link = props.link;
   var web = props.web;
+
+  let tagsToRender;
+  if (tags) {
+    tagsToRender = tags.map((tag) => {
+      return (
+        <Badge pill variant="secondary" style={{ marginRight: "3px" }}>
+          {tag}
+        </Badge>
+      );
+    });
+  }
+
   if (!link) {
     link = "https://github.com/glendont";
   }
@@ -122,20 +134,7 @@ export const ProjectDialog = (props) => {
                 <h1 className="lead">
                   <b> Technologies</b>
                 </h1>
-                <b>
-                  {tags.map((tag) => {
-                    return (
-                      <Badge
-                        pill
-                        variant="secondary"
-                        style={{ marginRight: "3px" }}
-                      >
-                        {tag}
-                      </Badge>
-                    );
-                  })}
-                </b>{" "}
-                <hr></hr>
+                <b>{tagsToRender}</b> <hr></hr>
               </Card.Text>
               <Card.Text
                 className="lead"
