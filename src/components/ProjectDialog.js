@@ -119,31 +119,45 @@ export const ProjectDialog = (props) => {
                   <b> Technologies</b>
                 </h1>
                 <b>
-                  {" "}
-                  <Badge pill variant="secondary">
-                    {props.tags[0]}
-                  </Badge>{" "}
-                  <Badge pill variant="secondary">
-                    {props.tags[1]}
-                  </Badge>{" "}
-                  <Badge pill variant="secondary">
-                    {props.tags[2]}
-                  </Badge>{" "}
-                  <Badge pill variant="secondary">
-                    {props.tags[3]}
-                  </Badge>{" "}
-                  <Badge pill variant="secondary">
-                    {props.tags[4]}
-                  </Badge>{" "}
-                  <Badge pill variant="secondary">
-                    {props.tags[5]}
-                  </Badge>{" "}
-                  <Badge pill variant="secondary">
-                    {props.tags[6]}
-                  </Badge>{" "}
-                  <Badge pill variant="secondary">
-                    {props.tags[7]}
-                  </Badge>{" "}
+                  {props.tags[0] ? (
+                    <Badge pill variant="secondary">
+                      {props.tags[0]} {"   "}
+                    </Badge>
+                  ) : (
+                    <Fragment> </Fragment>
+                  )}
+                  {props.tags[1] ? (
+                    <Badge pill variant="secondary">
+                      {props.tags[1]}
+                      {"   "}
+                    </Badge>
+                  ) : (
+                    <Fragment> </Fragment>
+                  )}
+                  {props.tags[2] ? (
+                    <Badge pill variant="secondary">
+                      {props.tags[2]}
+                      {"    "}
+                    </Badge>
+                  ) : (
+                    <Fragment> </Fragment>
+                  )}
+                  {props.tags[3] ? (
+                    <Badge pill variant="secondary">
+                      {props.tags[3]}
+                      {"   "}
+                    </Badge>
+                  ) : (
+                    <Fragment> </Fragment>
+                  )}
+                  {props.tags[4] ? (
+                    <Badge pill variant="secondary">
+                      {props.tags[4]}
+                      {"   "}
+                    </Badge>
+                  ) : (
+                    <Fragment> </Fragment>
+                  )}
                 </b>{" "}
                 <hr></hr>
               </Card.Text>
@@ -211,6 +225,11 @@ export const ProjectDialog = (props) => {
 
     //           <p style={{ marginTop: "0" }}>
     //             {" "}
+    //             On the Data Science arena, PCA and T-SNE was implemented for
+    //             dimensionality reduction as well as latent feature engineering.
+    //             The latent features are then clustered using the
+    //             K-Nearest-Neighbors (KNN) algorithms in order to generate the
+    //             more similar data points.
     //             The machine learning model is encapsulated into a back-end API
     //             using the Django web development framework. When used in
     //             conjunction with a front-end user interface, it allows users to
