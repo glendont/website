@@ -22,6 +22,10 @@ import Col from "react-bootstrap/Col";
 import CardColumns from "react-bootstrap/CardColumns";
 
 const FeaturedProjects = () => {
+  let tags_1 = ["ReactJS", "Node", "MongoDB", "Express"];
+  let tags_2 = ["Django", "Machine Learning", "Pickle"];
+  let tags_3 = ["ReactJS", "Flask", "Data Science", "NLP"];
+
   return (
     <div style={{ paddingBottom: "30px" }}>
       <Fragment>
@@ -84,8 +88,12 @@ const FeaturedProjects = () => {
                   short_desc="A one-stop site to assist couples with choosing their Build To Order flat"
                   tools="MongoDB, Express, React, NodeJS"
                   para1="This is what the project is about"
-                  link="https://github.com/Larrystamford/"
+                  link="https://github.com/johann95ko/btoExpressApp"
+                  web="https://btoanywhere.herokuapp.com/"
+                  tags={tags_1}
+                  description="This project aims to assist newly-wed/young couples in Singapore with their BTO (build-to-order) application by providing them with a one-stop-shop of all relevant and important information about purchasing a BTO flat in Singapore."
                 />
+
                 <Card.Body>
                   <Card.Title>
                     <h1 className="lead" style={{ textAlign: "center" }}>
@@ -140,7 +148,10 @@ const FeaturedProjects = () => {
                   short_desc="A web application to discover competitor companies using machine learning algorithms"
                   tools="MongoDB, Express, React, NodeJS"
                   para1="This is what the project is about"
-                  link="https://github.com/Larrystamford/"
+                  tags={tags_2}
+                  link="https://github.com/glendont/company-recommender-system"
+                  web="https://companyrecommendersystem.herokuapp.com/"
+                  description="On the Data Science arena, PCA and T-SNE was implemented for dimensionality reduction as well as latent feature engineering. The latent features are then clustered using the K-Nearest-Neighbors (KNN) algorithms in order to generate the more similar data points. The machine learning model is encapsulated into a back-end API using the Django web development framework. When used in conjunction with a front-end user interface, it allows users to input key characteristics of their company, and get competitor companies returned to them."
                 />
 
                 <Card.Body>
@@ -189,7 +200,10 @@ const FeaturedProjects = () => {
                   short_desc="Dashboard for cybersecurity practitioners to evaluate common vulnerabilities using machine learning."
                   tools="MongoDB, Express, React, NodeJS"
                   para1="This is what the project is about"
-                  link="https://github.com/Larrystamford/"
+                  link="https://github.com/cy002/UBS"
+                  web="none"
+                  tags={tags_3}
+                  description="In collaboration with UBS and Nanyang Technological University through the NTU EDGE programme, this project aims to incorporate Machine Learning and Natural Language Processing (NLP) in the analysis of Common Vulnerabilities and Exposures (CVE) to develop an Organization Vulnerability Risk Assessment Model. The end-product is a full-stack dashboard which allows cybersecurity practitioners to provide key inputs in order to generate recommendations on cybersecurity remediation. As a proof of concept, open-source datasets provided by the National Vulnerability Database (NVD) was used to train our machine learning model."
                 />
 
                 <Card.Body>

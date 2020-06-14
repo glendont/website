@@ -113,10 +113,15 @@ export const ProjectDialog = (props) => {
                   style={{
                     fontSize: "15px",
                     marginBottom: "2px",
-                    marginLeft: "3px",
+                    marginRight: "3px",
                   }}
-                />{" "}
-                {"  "} 13 June 2020
+                />
+                Last Updated: {"  "}{" "}
+                {props.date ? (
+                  props.date
+                ) : (
+                  <p style={{ display: "inline" }}> 13 June 2020 </p>
+                )}
               </p>{" "}
               <Card.Title style={{ paddingLeft: "5px" }}>
                 {" "}
