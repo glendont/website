@@ -94,8 +94,7 @@ const FeaturedInternships = () => {
                   para1="This is what the project is about"
                   link="https://github.com/Larrystamford/"
                   date="Aug 2020 - Current"
-                  contributions_1="Built a big data network packet analysis tool with the Elastic Stack (Elasticsearch, Logstash, Kibana) beats framework"
-                  contributions_2="Optimized mass hard drives testing on an international collaboration with Seagate Thailand"
+                  contributions_1="Coming Soon"
                 />
 
                 <Card.Body>
@@ -224,6 +223,12 @@ const FeaturedInternships = () => {
                   date="Dec 2019 - May 2020"
                   contributions_1="Derived data-driven insights using data science tools to analyze key trends in businesses across market sectors"
                   contributions_2="Analyzed causalrelationships through Structural Equation Modelling with R"
+                  contributions_3="Built and deployed dynamic live dashboards for effective data
+                  visualization for different stakeholders"
+                  contributions_4="Built a production Recommender System through Latent
+                  Feature Modelling with dimensionality reduction techniques"
+                  contributions_5="• Deployed Random Forest Regression models to draw insights
+                  regarding patient experience for a local hospital"
                 />
 
                 <Card.Body>
@@ -286,8 +291,10 @@ const FeaturedInternships = () => {
                   date="Dec 2018 - Feb 2019"
                   contributions_1="Developed a virtual chatbot to facilitate Natural Language
                   Processing (NLP) for both batch and live inputs"
-                  contributions_2="• Integrated open-source systems incorporating technologies
+                  contributions_2="Integrated open-source systems incorporating technologies
                   such as DialogFlow, Heroku, Github and Integromat"
+                  contributions_3="Evaluated open-source vocal analysis APIs on reliability,
+                  accuracy and robustness"
                 />
 
                 <Card.Body>

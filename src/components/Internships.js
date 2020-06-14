@@ -62,28 +62,33 @@ const Internships = (props) => {
         close={handleClose}
         contributions_1={props.contributions_1}
         contributions_2={props.contributions_2}
+        contributions_3={props.contributions_3}
+        contributions_4={props.contributions_4}
+        contributions_5={props.contributions_5}
       />
       {hovered ? (
-        <div className="projectWordedDiv" style={{ height: "230px" }}>
-          <div className="innerNameFlex animated fadeInDown">
-            <div className="alignTextDiv">
-              <p className="lead ProjectNameWords">
-                <b style={{ font: "Roboto" }}> {props.company}</b>
-              </p>
-              <p> {props.department} </p>
-              <p className="ProjectDescWords">{props.description}</p>
-            </div>
-          </div>
-
-          <div className="innerButtonFlex animated fadeInUp">
-            <Button
-              onClick={handleOpen}
-              variant="outline-secondary"
-              style={{ height: "2.5rem", marginBottom: "6rem" }}
-            >
-              <p>Learn More</p>
-            </Button>
-          </div>
+        <div>
+          <Card.Img
+            className="projectWordedDiv"
+            src={props.image}
+            style={{ height: "230px", opacity: "0.4" }}
+          />
+          <Card.ImgOverlay>
+            <Card.Text>
+              <div className="innerButtonFlex animated fadeIn">
+                <Button
+                  onClick={handleOpen}
+                  variant="secondary"
+                  style={{ height: "2.5rem", marginTop: "150px" }}
+                >
+                  <p style={{ fontFamily: "poppins", fontStyle: "bold" }}>
+                    {" "}
+                    Learn More
+                  </p>
+                </Button>
+              </div>
+            </Card.Text>
+          </Card.ImgOverlay>
         </div>
       ) : (
         <div
