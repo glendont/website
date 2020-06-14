@@ -129,6 +129,8 @@ const SearchProjects = () => {
               description={project.desc}
               image={[project.image]}
               short_desc={project.short_desc}
+              tags={project.tags}
+              link={project.link}
             />
             <Card.Body>
               <Card.Title>

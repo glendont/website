@@ -98,7 +98,7 @@ export const InternDialog = (props) => {
                 />{" "}
                 {"  "} {props.date}
               </p>{" "}
-              <Card.Title>
+              <Card.Title style={{ paddingLeft: "5px" }}>
                 {" "}
                 <h1 className="lead">
                   <b> {props.company}</b>
@@ -110,7 +110,7 @@ export const InternDialog = (props) => {
                   </p>
                 </h1>
               </Card.Title>
-              <Card.Text className="lead">
+              <Card.Text className="lead" style={{ paddingLeft: "5px" }}>
                 <b>
                   {" "}
                   <Badge pill variant="secondary">

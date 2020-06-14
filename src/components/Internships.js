@@ -79,7 +79,11 @@ const Internships = (props) => {
                 <Button
                   onClick={handleOpen}
                   variant="secondary"
-                  style={{ height: "2.5rem", marginTop: "150px" }}
+                  style={{
+                    height: "2.5rem",
+                    marginTop: "150px",
+                    justifyContent: "center",
+                  }}
                 >
                   <p style={{ fontFamily: "poppins", fontStyle: "bold" }}>
                     {" "}

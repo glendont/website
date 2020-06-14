@@ -3,38 +3,42 @@
     {
       "id": 1,
       "name": "BTOAnywhere",
-      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
-      "short_desc": "A one-stop site to assist couples with choosing",
+      "desc": "This project aims to assist newly-wed/young couples in Singapore with their BTO (build-to-order) application by providing them with a one-stop-shop of all relevant and important information about purchasing a BTO flat in Singapore.",
+      "short_desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
       "tags": ["React", "Express", "MongoDB", "Node"],
       "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-      "demo": "https://i.ibb.co/52Hp0D4/CRS.gif"
+      "demo": "https://i.ibb.co/52Hp0D4/CRS.gif",
+      "link": "https://github.com/johann95ko/btoExpressApp"
     },
     {
       "id": 3,
       "name": "Cyber Security Dashboard",
-      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "desc": "In collaboration with UBS and Nanyang Technological University through the NTU EDGE programme, this project aims to incorporate Machine Learning and Natural Language Processing (NLP) in the analysis of Common Vulnerabilities and Exposures (CVE) to develop an Organization Vulnerability Risk Assessment Model. The end-product is a full-stack dashboard which allows cybersecurity practitioners to provide key inputs in order to generate recommendations on cybersecurity remediation. As a proof of concept, open-source datasets provided by the National Vulnerability Database (NVD) was used to train our machine learning model..",
       "short_desc": "Dashboard for cybersecurity practitioners to evaluate common vulnerabilities using machine learning",
       "tags": ["React", "Flask", "Data Science", "Machine Learning", "NLP"],
       "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2249&q=80",
-      "demo": ""
+      "demo": "",
+      "link": "https://github.com/cy002/UBS"
     },
     {
       "id": 4,
       "name": "Competitors Generator",
-      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "desc": "On the Data Science arena, PCA and T-SNE was implemented for dimensionality reduction as well as latent feature engineering. The latent features are then clustered using the K-Nearest-Neighbors (KNN) algorithms in order to generate the more similar data points. The machine learning model is encapsulated into a back-end API using the Django web development framework. When used in conjunction with a front-end user interface, it allows users to input key characteristics of their company, and get competitor companies returned to them.",
       "short_desc": "A web application to discover competitor companies using machine learning algorithms",
       "tags": ["Django", "Data Science", "Machine Learning"],
       "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-      "demo": ""
+      "demo": "",
+      "link": "https://github.com/glendont/company-recommender-system"
     },
     {
       "id": 3,
       "name": "BLS Dashboard",
-      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
-      "short_desc": "A one-stop site to assist couples with choosing",
+      "desc": "Rapid dashboards deployment for business intelligence purposes using python dashboarding libraries",
+      "short_desc": "Dynamic dashboards deployment for Progress Tracking",
       "tags": ["Python", "Plotly", "Bokeh", "Panel"],
       "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-      "demo": ""
+      "demo": "",
+      "link": "https://github.com/glendont/bls-dashboard"
     }
   ],
   "techs": [

@@ -51,11 +51,13 @@ const Projects = (props) => {
         title={props.title}
         link={props.link}
         desc={description}
-        para1={short_desc}
+        short_desc={short_desc}
         para2={props.para2}
         para3={props.para3}
         state={open}
         close={handleClose}
+        image={props.image}
+        tags={props.tags}
       />
       {hovered ? (
         <div className="projectWordedDiv" style={{ height: "230px" }}>

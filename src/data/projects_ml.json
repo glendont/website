@@ -3,8 +3,8 @@
     {
       "id": 2,
       "name": "Covid-19 Analysis",
-      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
-      "short_desc": "A one-stop site to assist couples with choosing",
+      "desc": "Exploratory Data Analysis to gain insights of the spread of the virus through webcrawling live statistics from https://www.worldometers.info/coronavirus/",
+      "short_desc": "A data science approach to the largest global pandemic of our time - Covid-19 ",
       "tags": [
         "Data Science",
         "Machine Learning",
@@ -13,34 +13,38 @@
         "Sklearn"
       ],
       "image": "https://images.unsplash.com/photo-1585559605575-549e9ce78300?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-      "demo": ""
+      "demo": "",
+      "link": "https://github.com/glendont/covid19-datascience-analysis"
     },
     {
       "id": 3,
       "name": "Cyber Security Dashboard",
-      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "desc": "In collaboration with UBS and Nanyang Technological University through the NTU EDGE programme, this project aims to incorporate Machine Learning and Natural Language Processing (NLP) in the analysis of Common Vulnerabilities and Exposures (CVE) to develop an Organization Vulnerability Risk Assessment Model. The end-product is a full-stack dashboard which allows cybersecurity practitioners to provide key inputs in order to generate recommendations on cybersecurity remediation. As a proof of concept, open-source datasets provided by the National Vulnerability Database (NVD) was used to train our machine learning model.",
       "short_desc": "Dashboard for cybersecurity practitioners to evaluate common vulnerabilities using machine learning",
       "tags": ["React", "Flask", "Data Science", "Machine Learning", "NLP"],
       "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2249&q=80",
-      "demo": ""
+      "demo": "",
+      "link": "https://github.com/cy002/UBS"
     },
     {
       "id": 4,
       "name": "Competitors Generator",
-      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
+      "desc": "On the Data Science arena, PCA and T-SNE was implemented for dimensionality reduction as well as latent feature engineering. The latent features are then clustered using the K-Nearest-Neighbors (KNN) algorithms in order to generate the more similar data points. The machine learning model is encapsulated into a back-end API using the Django web development framework. When used in conjunction with a front-end user interface, it allows users to input key characteristics of their company, and get competitor companies returned to them.",
       "short_desc": "A web application to discover competitor companies using machine learning algorithms",
       "tags": ["Django", "Data Science", "Machine Learning"],
       "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-      "demo": ""
+      "demo": "",
+      "link": "https://github.com/glendont/company-recommender-system"
     },
     {
       "id": 3,
       "name": "NLP Chatbot",
-      "desc": "A one-stop site to assist couples with choosing their Build To Order flat.",
-      "short_desc": "A one-stop site to assist couples with choosing",
+      "desc": "This project allows you pull data from queries received by Dialogflow, and execute the Python scripts needed to process those data by deploying this project on Heroku.",
+      "short_desc": "Bringing Natural Language Processing to your smartphone",
       "tags": ["Python", "NLP", "DialogFlow"],
       "image": "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1361&q=80",
-      "demo": ""
+      "demo": "",
+      "link": "https://github.com/glendont/NLP-telegram-bot"
     }
   ],
   "techs": [
