@@ -36,6 +36,7 @@ const styles = (theme) => ({
 
 const DialogTitle = withStyles(styles)((props) => {
   const { children, classes, onClose, ...other } = props;
+
   return (
     <MuiDialogTitle disableTypography className={classes.root} {...other}>
       <Typography variant="h6">{children}</Typography>
@@ -66,6 +67,7 @@ const DialogActions = withStyles((theme) => ({
 }))(MuiDialogActions);
 
 export const ProjectDialog = (props) => {
+  const { tags } = props;
   var link = props.link;
   var web = props.web;
   if (!link) {
@@ -121,29 +123,17 @@ export const ProjectDialog = (props) => {
                   <b> Technologies</b>
                 </h1>
                 <b>
-                  {props.tags ? (
-                    <Badge pill variant="secondary">
-                      {props.tags} {"   "}
-                    </Badge>
-                  ) : (
-                    <Fragment> </Fragment>
-                  )}
-                  {/* {props.tags[1] ? (
-                    <Badge pill variant="secondary">
-                      {props.tags[1]}
-                      {"   "}
-                    </Badge>
-                  ) : (
-                    <Fragment> </Fragment>
-                  )}
-                  {props.tags[2] ? (
-                    <Badge pill variant="secondary">
-                      {props.tags[2]}
-                      {"    "}
-                    </Badge>
-                  ) : (
-                    <Fragment> </Fragment>
-                  )}*/}
+                  {tags.map((tag) => {
+                    return (
+                      <Badge
+                        pill
+                        variant="secondary"
+                        style={{ marginRight: "3px" }}
+                      >
+                        {tag}
+                      </Badge>
+                    );
+                  })}
                 </b>{" "}
                 <hr></hr>
               </Card.Text>
