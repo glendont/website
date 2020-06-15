@@ -40,7 +40,7 @@ const ContactComponent = () => {
               <Col className="d-flex justify-content-center text-center m-auto">
                 <Card
                   style={{
-                    width: "50vw",
+                    width: "62vw",
                     padding: "2%",
                   }}
                 >
@@ -49,17 +49,14 @@ const ContactComponent = () => {
                       className="mb-2 text-muted"
                       style={{
                         padding: "2%",
-                        textAlign: "justify",
+                        textAlign: "center",
                         fontWeight: "700",
                         fontFamily: "poppins",
                         letterSpacing: "0.05em",
                       }}
                     >
-                      I'm currently taking on freelance work. If you are
-                      interested in hiring me for your project please use the
-                      form below to get in touch. Want to know how I work and
-                      what I can offer? Check out my project case studies and
-                      resume.
+                      A potential project collaboration or just a chat over
+                      coffee?
                     </Card.Subtitle>
                     <br />
                     <Card.Subtitle
@@ -69,14 +66,14 @@ const ContactComponent = () => {
                         fontWeight: "900",
                         fontFamily: "poppins",
                         letterSpacing: "0.08em",
+                        marginBottom: "5px",
                       }}
                     >
-                      You can also find me on the following channels
+                      <p style={{ paddingBottom: "2px" }}>
+                        {" "}
+                        You can also find me on the following channels
+                      </p>
                     </Card.Subtitle>
-                    <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </Card.Text>
 
                     <Card.Link href="https://www.linkedin.com/in/glendonthaiw/">
                       {" "}
@@ -111,6 +108,7 @@ const ContactComponent = () => {
                 </Card>
               </Col>
             </Row>
+
             <Row
               style={{
                 paddingLeft: "109px",
