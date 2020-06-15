@@ -44,7 +44,7 @@ const FeaturedProjects = () => {
                   marginTop: "30px",
                   marginBottom: "30px",
                   letterSpacing: "0.05em",
-                  fontSize: "23px",
+                  fontSize: "22px",
                 }}
               >
                 Always on the hunt for unique and meaningful applications of

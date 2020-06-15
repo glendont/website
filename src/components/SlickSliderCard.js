@@ -17,9 +17,8 @@ const SlickSliderCard = (props) => {
           lg={12}
           style={{ paddingBottom: "10px" }}
         >
-          <Card style={{ width: "30vw", height: "auto", padding: "10px" }}>
+          <Card style={{ width: "30vw", height: "32vh", padding: "10px" }}>
             <Card.Body>
-              {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Subtitle className="mb-2 text-muted">
                 <FormatQuoteIcon
                   fontSize="large"

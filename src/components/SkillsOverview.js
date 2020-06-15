@@ -46,13 +46,15 @@ const SkillsOverview = () => {
                   style={{
                     fontFamily: "Poppins",
                     fontWeight: "700",
-                    textAlign: "justify",
+                    textAlign: "center",
                     paddingBottom: "20px",
                     letterSpacing: "0.05em",
-                    fontSize: "25px",
+                    fontSize: "22px",
                   }}
                 >
                   {" "}
+                  Tools of the trade - here are some I gathered through my
+                  different works and experiences{" "}
                 </p>
               </Col>
             </Row>

@@ -49,8 +49,8 @@ const FeaturedInternships = () => {
               >
                 {" "}
                 I enjoy building meaningful products with the use of technology
-                and have brought this intrigue forward in my various strints
-                with different organisations
+                and have brought this intrigue forward in my various stints with
+                different organisations
               </p>
             </Col>
           </Row>

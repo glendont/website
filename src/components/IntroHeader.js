@@ -31,16 +31,17 @@ const IntroHeader = () => {
             style={{ backgroundColor: "#41A4F5", padding: "2rem" }}
           >
             <Row className="justify-content-md-center">
-              <Col xs={0} sm={0} md={1} lg={1} xl={1}></Col>
-              <Col xs={0} sm={0} md={0} lg={0} xl={2}></Col>
+              {/* <Col xs={0} sm={2} md={1} lg={1} xl={1}></Col> */}
+              <Col xs={1} sm={3} md={1} lg={0} xl={2}></Col>
               <Col
-                xs={4}
-                sm={5}
-                md={3}
+                xs={9}
+                sm={6}
+                md={2}
                 lg={3}
                 xl={1}
                 className="d-flex justify-content-center text-center m-auto"
               >
+                <Col xs={4} sm={3} md={0} lg={0} xl={0}></Col>
                 <Image
                   style={{
                     width: "300%",
@@ -53,7 +54,7 @@ const IntroHeader = () => {
                 />{" "}
               </Col>
 
-              <Col xs={12} sm={7} md={8} lg={7} xl={6}>
+              <Col xs={12} sm={6} md={7} lg={7} xl={6}>
                 <div
                   className="textContainer"
                   style={{ fontFamily: "Poppins" }}
@@ -107,7 +108,7 @@ const IntroHeader = () => {
                   </Link>
                 </div>
               </Col>
-              <Col xs={0} sm={0} md={1} lg={1} xl={2}></Col>
+              <Col xs={1} sm={3} md={1} lg={1} xl={2}></Col>
             </Row>
           </Container>
         </div>
