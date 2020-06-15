@@ -73,8 +73,9 @@ const Footer = () => {
                     fontSize: "16px",
                   }}
                 >
-                  To start an initial chat, just drop me an email at
-                  glendon888@gmail.com or use the form on the contact page.
+                  To start an initial chat, just drop me an email at{" "}
+                  <u>glendon888@gmail.com </u> or use the form on the contact
+                  page.
                 </p>
                 <br></br>
               </Row>

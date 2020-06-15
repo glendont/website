@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -10,11 +10,61 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 import LocalPhoneIcon from "@material-ui/icons/LocalPhone";
-
+import axios from "axios";
 const ContactComponent = () => {
-  const activateForm = () => {
-    alert("Thanks for reaching out!");
+  const [name, setName] = useState("");
+
+  const [email, setEmail] = useState("");
+
+  const [message, setMessage] = useState("");
+
+  const nameChange = (e) => {
+    e.preventDefault();
+    console.log(e.target.value);
+    setName(e.target.value);
   };
+
+  const emailChange = (e) => {
+    console.log(e.target.value);
+    setEmail(e.target.value);
+    e.preventDefault();
+  };
+
+  const messageChange = (e) => {
+    console.log(e.target.value);
+    setMessage(e.target.value);
+    e.preventDefault();
+  };
+
+  const clearForm = () => {
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
+  const activateForm = (e) => {
+    axios
+      .post(
+        "https://formcarry.com/s/GVcGpJFGuxxo",
+        {
+          name: name,
+          email: email,
+          message: message,
+        },
+        { headers: { Accept: "application/json" } }
+      )
+      .then(function (response) {
+        console.log(response);
+        clearForm();
+        alert("Thanks for reaching out!");
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+
+    e.preventDefault();
+  };
+
   return (
     <Fragment>
       <div className="contact-component-div">
@@ -119,14 +169,22 @@ const ContactComponent = () => {
               <Col>
                 <Form>
                   <Form.Group controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Name" />
+                    <Form.Control
+                      type="email"
+                      placeholder="Name"
+                      onChange={nameChange}
+                    />
                   </Form.Group>
                 </Form>
               </Col>
               <Col>
                 <Form>
                   <Form.Group controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Email" />
+                    <Form.Control
+                      type="email"
+                      placeholder="Email"
+                      onChange={emailChange}
+                    />
                   </Form.Group>
                 </Form>
               </Col>
@@ -140,6 +198,7 @@ const ContactComponent = () => {
                       rows="6"
                       type="text"
                       placeholder="Enter your message..."
+                      onChange={messageChange}
                     />
                   </Form.Group>
                 </Form>
