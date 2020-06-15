@@ -64,15 +64,15 @@ const SearchProjects = () => {
               style={{
                 fontFamily: "Poppins",
                 fontWeight: "700",
-                textAlign: "justify",
+                textAlign: "center",
                 marginTop: "30px",
+                letterSpacing: "0.05em",
+                fontSize: "25px",
               }}
             >
               {" "}
-              I have more than 8 years' experience building rich web
-              applications for clients all over the world. Below is a quick
-              overview of my main technical skill sets and tools I use. Want to
-              find out more about my experience? Check out my online resume.
+              From web applications to machine learning models, I am always on
+              the hunt for unique and meaningful applications of technology.
             </p>
           </Col>
         </Row>

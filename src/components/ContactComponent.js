@@ -11,6 +11,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 import LocalPhoneIcon from "@material-ui/icons/LocalPhone";
 import axios from "axios";
+
 const ContactComponent = () => {
   const [name, setName] = useState("");
 
@@ -147,7 +148,7 @@ const ContactComponent = () => {
                         style={{ color: "#41A4F4" }}
                       />
                     </Card.Link>
-                    <Card.Link href="/">
+                    <Card.Link href="/website">
                       {" "}
                       <LocalPhoneIcon
                         fontSize="large"

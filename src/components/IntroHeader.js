@@ -86,7 +86,7 @@ const IntroHeader = () => {
                       letterSpacing: "0.01em",
                     }}
                   >
-                    A computer science <u> sophmore</u> from the Renaissance
+                    A computer science <u> sophomore</u> from the Renaissance
                     Engineering Programme at Nanyang Technological University. I
                     am extremely fascinated by the intersection between
                     Technology and Business.{" "}
