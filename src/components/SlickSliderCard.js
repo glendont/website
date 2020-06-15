@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -10,14 +10,16 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const SlickSliderCard = (props) => {
   return (
-    <div>
+    <Fragment>
       <Row className="d-flex justify-content-center center-block d-block m-auto">
         <Col
           className="d-flex justify-content-center center-block d-block m-auto"
-          lg={12}
+          xs={12}
+          sm={12}
+          md={12}
           style={{ paddingBottom: "10px" }}
         >
-          <Card style={{ width: "30vw", height: "32vh", padding: "10px" }}>
+          <Card style={{ width: "33vw", height: "32vh", padding: "10px" }}>
             <Card.Body>
               <Card.Subtitle className="mb-2 text-muted">
                 <FormatQuoteIcon
@@ -77,7 +79,7 @@ const SlickSliderCard = (props) => {
           </Card>
         </Col>
       </Row>
-    </div>
+    </Fragment>
   );
 };
 

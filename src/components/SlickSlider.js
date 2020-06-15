@@ -1,18 +1,30 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import Slider from "react-slick";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SlickSliderCard from "./SlickSliderCard";
 import * as testimonialData from "../data/testimonial.json";
-
+import { isWidthDown } from "@material-ui/core";
+import useWindowDimensions from "./useWindowDimensions";
 const SlickSlider = () => {
+  const { height, width } = useWindowDimensions();
+  const [numspad, setNumspad] = useState(3);
+
+  useEffect(() => {
+    if (width > 1000) {
+      setNumspad(3);
+    } else {
+      setNumspad(1);
+    }
+  }, []);
+
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     arrow: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: numspad,
     slidesToScroll: 1,
   };
 
@@ -57,7 +69,7 @@ const SlickSlider = () => {
       </div>
       <Slider {...settings} className="slider-div">
         {testimonialData.features.map((testimonial) => (
-          <div>
+          <Col xs={12} sm={12} md={12}>
             <SlickSliderCard
               comments={testimonial.comments}
               image={testimonial.image}
@@ -65,7 +77,7 @@ const SlickSlider = () => {
               title={testimonial.title}
               linkedinurl={testimonial.linkedin}
             />
-          </div>
+          </Col>
         ))}
       </Slider>
     </Fragment>
