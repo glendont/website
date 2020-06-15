@@ -40,7 +40,7 @@ const ContactComponent = () => {
               <Col className="d-flex justify-content-center text-center m-auto">
                 <Card
                   style={{
-                    width: "62vw",
+                    width: "52vw",
                     padding: "2%",
                   }}
                 >
