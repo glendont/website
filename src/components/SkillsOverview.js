@@ -70,7 +70,6 @@ const SkillsOverview = () => {
                 style={{ paddingBottom: "20px" }}
               >
                 <Card style={{ width: "23rem", paddingBottom: "20px" }}>
-                  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                   <Card.Body>
                     <Card.Title style={{ textAlign: "center" }}>
                       <p> Web Development </p>
@@ -85,7 +84,10 @@ const SkillsOverview = () => {
                         roundedCircle
                       />
                     </Card.Title>
-                    <Card.Text style={{ textAlign: "justify" }}>
+                    <Card.Text
+                      className="skills-text"
+                      style={{ textAlign: "justify" }}
+                    >
                       <ul style={{ listStyle: "none" }}>
                         <br></br>
                         <li>
@@ -144,7 +146,10 @@ const SkillsOverview = () => {
                         src={datascienceicon}
                       />
                     </Card.Title>
-                    <Card.Text style={{ textAlign: "justify" }}>
+                    <Card.Text
+                      className="skills-text"
+                      style={{ textAlign: "justify" }}
+                    >
                       <ul style={{ listStyle: "none" }}>
                         <br></br>
                         <li>
@@ -203,7 +208,10 @@ const SkillsOverview = () => {
                         roundedCircle
                       />
                     </Card.Title>
-                    <Card.Text style={{ textAlign: "justify" }}>
+                    <Card.Text
+                      className="skills-text"
+                      style={{ textAlign: "justify" }}
+                    >
                       <ul style={{ listStyle: "none" }}>
                         <br></br>
                         <li>

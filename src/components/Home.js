@@ -1,7 +1,5 @@
 import React, { Fragment } from "react";
-
 import IntroHeader from "./IntroHeader";
-import styled from "styled-components";
 import SkillsOverview from "./SkillsOverview";
 import FeaturedProjects from "./FeaturedProjects";
 import SlickSlider from "./SlickSlider";

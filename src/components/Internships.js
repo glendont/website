@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
-import Container from "react-bootstrap/Container";
 import { Tooltip as tooltip, OverlayTrigger, Button } from "react-bootstrap";
-import styled from "@emotion/styled/macro";
-import { Animated } from "react-animated-css";
 import { InternDialog } from "./InternDialog";
-import { ProjectDialog } from "./ProjectDialog";
-
 import { useHoverLeave } from "./customHooks/useHoverLeave";
 import { useWindowDimensions } from "./customHooks/useWindowDimensions";
 

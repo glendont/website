@@ -3,9 +3,6 @@ import Slider from "react-slick";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Projects from "./Projects";
-import dstaImage from "./intern_dsta.jpg";
-import SkillsOverview from "./SkillsOverview";
 import SlickSliderCard from "./SlickSliderCard";
 import * as testimonialData from "../data/testimonial.json";
 

@@ -42,7 +42,7 @@ const NavigationBar = () => (
         <AlternateEmailIcon fontSize="medium" />
       </Navbar.Brand>
 
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/contact">
         <LocalPhoneIcon fontSize="medium" />
       </Navbar.Brand>
 

@@ -5,7 +5,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
-import glendonpic from "./profilepic.png";
 
 const Styles = styled.div`
   .header {
@@ -13,6 +12,8 @@ const Styles = styled.div`
   .textContainer {
     justify-content: center;
     padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
 
   .text {
@@ -66,10 +67,11 @@ const IntroHeader = () => {
                     className="mt-0 display-4 font-weight-bold text-white animate__animated animate__headShake"
                     style={{
                       fontFamily: "Poppins",
-                      fontWeight: "bold",
+                      fontWeight: "normal",
                       textShadow: "0px 1px, 1px 0px, 1px 1px",
-                      letterSpacing: "0.005em",
+                      letterSpacing: "0.003em",
                       color: "#102A42",
+                      fontSize: "55px",
                     }}
                   >
                     {" "}
@@ -84,10 +86,10 @@ const IntroHeader = () => {
                       letterSpacing: "0.01em",
                     }}
                   >
-                    A computer science sophmore from the Renaissance Engineering
-                    Programme at Nanyang Technological University. I am
-                    extremely fascinated by the intersection between Technology
-                    and Business.{" "}
+                    A computer science <u> sophmore</u> from the Renaissance
+                    Engineering Programme at Nanyang Technological University. I
+                    am extremely fascinated by the intersection between
+                    Technology and Business.{" "}
                   </p>
 
                   <Link to="/contact">
@@ -100,7 +102,7 @@ const IntroHeader = () => {
                         fontFamily: "poppins",
                       }}
                     >
-                      Contact Me
+                      Let's build!
                     </button>
                   </Link>
                 </div>

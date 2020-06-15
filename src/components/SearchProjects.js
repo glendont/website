@@ -1,17 +1,10 @@
-import React, { Fragment, useState, useContext, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { Fragment, useState, useContext } from "react";
 import Projects from "./Projects";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import ProjectContext from "./context/projectContext";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import Dropdown from "react-bootstrap/Dropdown";
-
-import newData from "../data/nextdata.json";
 import projectMachineLearning from "../data/projects_ml.json";
 import projectAll from "../data/projects_all.json";
 import projectSWE from "../data/projects_swe.json";

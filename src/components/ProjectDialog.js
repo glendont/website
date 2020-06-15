@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import { withStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
 import MuiDialogTitle from "@material-ui/core/DialogTitle";
 import MuiDialogContent from "@material-ui/core/DialogContent";
@@ -8,15 +7,8 @@ import MuiDialogActions from "@material-ui/core/DialogActions";
 import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from "@material-ui/icons/Close";
 import Typography from "@material-ui/core/Typography";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import CRS from "./CRS.gif";
-
-import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
-import amazonPic from "./intern_amazon.jpg";
 import AccessAlarmsIcon from "@material-ui/icons/AccessAlarms";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import WebIcon from "@material-ui/icons/Web";

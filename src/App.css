@@ -357,3 +357,11 @@
   justify-content: center;
   padding-bottom: 30px;
 }
+
+.skills-text {
+  color: #21252a;
+}
+
+.skills-text:hover {
+  color: grey;
+}
