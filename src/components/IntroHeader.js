@@ -6,11 +6,13 @@ import Col from "react-bootstrap/Col";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
 import glendonpic from "./profilepic.png";
+
 const Styles = styled.div`
   .header {
   }
   .textContainer {
-    padding: 10%;
+    justify-content: center;
+    padding: 5%;
   }
 
   .text {
@@ -51,13 +53,25 @@ const IntroHeader = () => {
               </Col>
 
               <Col xs={12} sm={7} md={8} lg={7} xl={6}>
-                <div className="textContainer" style={{ fontFamily: "roboto" }}>
+                <div
+                  className="textContainer"
+                  style={{ fontFamily: "Poppins" }}
+                >
                   <div className="lead text-white">
                     {" "}
                     <h5> Hey there! My name is</h5>{" "}
                   </div>
 
-                  <h2 className="mt-0 display-4 font-weight-bold text-white animate__animated animate__headShake">
+                  <h2
+                    className="mt-0 display-4 font-weight-bold text-white animate__animated animate__headShake"
+                    style={{
+                      fontFamily: "Poppins",
+                      fontWeight: "bold",
+                      textShadow: "0px 1px, 1px 0px, 1px 1px",
+                      letterSpacing: "0.005em",
+                      color: "#102A42",
+                    }}
+                  >
                     {" "}
                     Glendon Thaiw,{" "}
                   </h2>
@@ -81,7 +95,10 @@ const IntroHeader = () => {
                     <button
                       type="button"
                       class="btn btn-lg btn-primary"
-                      style={{ backgroundColor: "#0A71C6" }}
+                      style={{
+                        backgroundColor: "#0A71C6",
+                        fontFamily: "poppins",
+                      }}
                     >
                       Contact Me
                     </button>
