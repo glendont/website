@@ -9,7 +9,6 @@ import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import ProjectState from "./components/context/ProjectState";
-
 const App = () => {
   return (
     <ProjectState>
@@ -20,6 +19,7 @@ const App = () => {
             <Route exact path="/website" component={Home} />
             <Route exact path="/projects" component={ProjectPage} />
             <Route exact path="/contact" component={Contact} />
+            <Route component={Home} />
           </Switch>
           <Footer />
         </Router>
