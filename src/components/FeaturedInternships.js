@@ -67,7 +67,7 @@ const FeaturedInternships = () => {
             >
               <Card
                 style={{
-                  width: "45vw",
+                  width: "55vw",
                   paddingBottom: "20px",
                   height: "325px",
                 }}
@@ -120,6 +120,7 @@ const FeaturedInternships = () => {
                 </Card.Body>
               </Card>
             </Col>
+
             <Col
               className="d-flex justify-content-center center-block d-block m-auto"
               xs={12}
@@ -128,7 +129,7 @@ const FeaturedInternships = () => {
             >
               <Card
                 style={{
-                  width: "45vw",
+                  width: "55vw",
                   paddingBottom: "20px",
                   height: "325px",
                 }}
@@ -194,7 +195,7 @@ const FeaturedInternships = () => {
             >
               <Card
                 style={{
-                  width: "45vw",
+                  width: "55vw",
                   paddingBottom: "20px",
                   height: "325px",
                 }}
@@ -262,7 +263,7 @@ const FeaturedInternships = () => {
             >
               <Card
                 style={{
-                  width: "45vw",
+                  width: "55vw",
                   paddingBottom: "20px",
                   height: "325px",
                 }}

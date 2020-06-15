@@ -26,7 +26,8 @@ const SkillsOverview = () => {
         <div className="header">
           <Container>
             <Row>
-              <Col>
+              <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col>
+              <Col xs={10} sm={10} lg={12}>
                 <h1
                   style={{
                     textAlign: "center",
@@ -57,14 +58,18 @@ const SkillsOverview = () => {
                   different works and experiences{" "}
                 </p>
               </Col>
+              <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col>
             </Row>
 
             <Row style={{ paddingBottom: "30px" }}>
+              {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
               <Col
                 className="d-flex justify-content-center center-block d-block m-auto"
-                xs={12}
-                sm={12}
-                md={4}
+                xs={10}
+                sm={10}
+                md={12}
+                lg={4}
+                xl={4}
                 style={{ paddingBottom: "20px" }}
               >
                 <Card style={{ width: "23rem", paddingBottom: "20px" }}>
@@ -121,11 +126,15 @@ const SkillsOverview = () => {
                   </Card.Body>
                 </Card>
               </Col>
+              {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
+              {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
+
               <Col
                 className="d-flex justify-content-center center-block d-block m-auto"
-                xs={12}
-                sm={12}
-                md={4}
+                xs={10}
+                sm={10}
+                md={12}
+                lg={4}
                 style={{ paddingBottom: "20px" }}
               >
                 <Card style={{ width: "23rem", paddingBottom: "20px" }}>
@@ -183,11 +192,15 @@ const SkillsOverview = () => {
                   </Card.Body>
                 </Card>
               </Col>
+              {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
+              {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
+
               <Col
                 className="d-flex justify-content-center center-block d-block m-auto"
-                xs={12}
-                sm={12}
-                md={4}
+                xs={10}
+                sm={10}
+                md={12}
+                lg={4}
                 style={{ paddingBottom: "20px" }}
               >
                 <Card style={{ width: "23rem", paddingBottom: "20px" }}>
@@ -245,6 +258,7 @@ const SkillsOverview = () => {
                   </Card.Body>
                 </Card>
               </Col>
+              {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
             </Row>
           </Container>
         </div>
