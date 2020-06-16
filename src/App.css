@@ -305,7 +305,8 @@
 
 .slick-slider {
   background-color: #f7f8fa;
-
+  padding-left: 5%;
+  padding-right: 5%;
   overflow-y: hidden;
   overflow-x: hidden;
   margin-bottom: 10px;

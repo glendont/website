@@ -19,7 +19,7 @@ const SlickSliderCard = (props) => {
           md={12}
           style={{ paddingBottom: "10px" }}
         >
-          <Card style={{ width: "33vw", height: "32vh", padding: "10px" }}>
+          <Card style={{ width: "100%", height: "100%", padding: "10px" }}>
             <Card.Body>
               <Card.Subtitle className="mb-2 text-muted">
                 <FormatQuoteIcon
@@ -46,8 +46,8 @@ const SlickSliderCard = (props) => {
               </div>
 
               <Card.Link
+                href={props.linkedinurl}
                 className="float-right"
-                href="#"
                 style={{
                   fontSize: "13px",
                   color: "grey",
