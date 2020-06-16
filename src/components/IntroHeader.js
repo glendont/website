@@ -31,7 +31,7 @@ const IntroHeader = () => {
             style={{ backgroundColor: "#41A4F5", padding: "2rem" }}
           >
             <Row className="justify-content-md-center">
-              {/* <Col xs={0} sm={2} md={1} lg={1} xl={1}></Col> */}
+              {/* <Col xs= {0} sm={2} md={1} lg={1} xl={1}></Col> */}
               <Col xs={0} sm={0} md={1} lg={0} xl={2}></Col>
               <Col
                 xs={7}

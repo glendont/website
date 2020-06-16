@@ -210,13 +210,15 @@ function CustomChatBot(props) {
     },
     {
       id: "Answer No",
-      message: "Thank you so much!",
+      message:
+        "No worries, feel free to ping me on my linkedin at https://www.linkedin.com/in/glendonthaiw/",
     },
 
     {
       id: "Enter Name",
-      message: "Please Enter your Name",
-      trigger: "Waiting user input for name",
+      message:
+        "Drop in your email address whenever you're ready and ill be in contact in a jiffy!",
+      trigger: "Waiting user input for email",
     },
     {
       id: "Waiting user input for name",
@@ -231,7 +233,7 @@ function CustomChatBot(props) {
     {
       id: "Waiting user input for email",
       user: true,
-      trigger: "Enter Message",
+      trigger: "Done",
     },
     {
       id: "Enter Message",
@@ -247,7 +249,7 @@ function CustomChatBot(props) {
 
     {
       id: "Done",
-      message: "Done!",
+      message: "Thanks for reaching out, I'd be in touch!",
     },
   ];
 
