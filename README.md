@@ -10,6 +10,6 @@ An interactive and dynamic web application used as a platform to showcase my pas
 
 
 ## Authors
-* **Glendon Thaiw** - *Initial work* - [Github](https://github.com/glendont)
+* **Glendon Thaiw** - [Github](https://github.com/glendont)
 
 
