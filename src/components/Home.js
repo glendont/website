@@ -4,7 +4,6 @@ import SkillsOverview from "./SkillsOverview";
 import FeaturedProjects from "./FeaturedProjects";
 import SlickSlider from "./SlickSlider";
 import FeaturedInternships from "./FeaturedInternships";
-
 const Home = () => {
   return (
     <Fragment>

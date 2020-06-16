@@ -4,6 +4,7 @@ import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import CustomChatBot from "./chatbot/CustomChatBot";
 const Styles = styled.div`
   .footer-div {
     padding: 0 0;
@@ -95,6 +96,7 @@ const Footer = () => {
                   </a> */}
                 </Col>
               </Row>
+              <CustomChatBot />
             </Container>
           </footer>
         </div>
