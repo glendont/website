@@ -1,25 +1,11 @@
 import React, { useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Card from "react-bootstrap/Card";
-import { Tooltip as tooltip, OverlayTrigger, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { InternDialog } from "./InternDialog";
 import { useHoverLeave } from "./customHooks/useHoverLeave";
 import { useWindowDimensions } from "./customHooks/useWindowDimensions";
 
-const useStyles = makeStyles((theme) => ({
-  buttonWord: {
-    color: "#45474a",
-  },
-  buttonOutline: {
-    borderColor: "#08FDD8",
-    borderRadius: 5,
-    borderWidth: "thick",
-    paddingTop: 0,
-  },
-}));
-
 const Internships = (props) => {
-  const classes = useStyles();
   const [ref, hovered] = useHoverLeave();
   const [open, setOpen] = useState(false);
   const { height, width } = useWindowDimensions();

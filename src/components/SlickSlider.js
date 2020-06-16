@@ -5,8 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SlickSliderCard from "./SlickSliderCard";
 import * as testimonialData from "../data/testimonial.json";
-import { isWidthDown } from "@material-ui/core";
 import useWindowDimensions from "./useWindowDimensions";
+
 const SlickSlider = () => {
   const { height, width } = useWindowDimensions();
   const [numspad, setNumspad] = useState(3);
