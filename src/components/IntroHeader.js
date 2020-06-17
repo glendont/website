@@ -5,6 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
+import { Spring } from "react-spring/renderprops";
+import Typing from "react-typing-animation";
 
 const Styles = styled.div`
   .header {
@@ -67,7 +69,8 @@ const IntroHeader = () => {
                   </div>
 
                   <h2
-                    className="mt-0 display-4 font-weight-bold text-white animate__animated animate__headShake"
+                    className="mt-0 display-4 font-weight-bold text-white"
+                    // className="mt-0 display-4 font-weight-bold text-white animate__animated animate__headShake"
                     style={{
                       fontFamily: "Poppins",
                       fontWeight: "normal",
@@ -78,7 +81,11 @@ const IntroHeader = () => {
                     }}
                   >
                     {" "}
-                    Glendon Thaiw,{" "}
+                    <Typing>
+                      {" "}
+                      Glendon Thaiw, <Typing.Delay ms={1000} />
+                      {/* <Typing.Backspace count={7} loop={true} /> */}
+                    </Typing>
                   </h2>
 
                   <p
