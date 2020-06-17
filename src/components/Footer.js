@@ -84,17 +84,7 @@ const Footer = () => {
                 <Col
                   xs={12}
                   className="d-flex justify-content-center text-center m-auto"
-                >
-                  {/* <a href="/contact">
-                    <button
-                      type="button"
-                      class="btn btn-lg btn-primary"
-                      style={{ marginTop: "15px" }}
-                    >
-                      Let's Talk
-                    </button>
-                  </a> */}
-                </Col>
+                ></Col>
               </Row>
               <CustomChatBot />
             </Container>
