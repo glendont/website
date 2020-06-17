@@ -47,6 +47,7 @@ const SlickSliderCard = (props) => {
 
               <Card.Link
                 href={props.linkedinurl}
+                target="_blank"
                 className="float-right"
                 style={{
                   fontSize: "13px",
