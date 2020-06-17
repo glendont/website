@@ -231,12 +231,13 @@ const FeaturedProjects = () => {
               <button
                 href="/projects"
                 type="button"
-                class="btn btn-lg btn-primary"
+                class="btn btn-lg"
                 style={{
-                  backgroundColor: "#41A4F5",
+                  backgroundColor: "#567787",
                   padding: "9px",
                   paddingBottom: "2px",
                   paddingTop: "2px",
+                  color: "white",
                 }}
               >
                 View all Projects

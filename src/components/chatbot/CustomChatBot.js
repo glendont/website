@@ -6,10 +6,10 @@ function CustomChatBot(props) {
   const theme = {
     background: "white",
     fontFamily: "Poppins",
-    headerBgColor: "#0A71C6",
+    headerBgColor: "#2F4049",
     headerFontColor: "#fff",
     headerFontSize: "25px",
-    botBubbleColor: "#41A4F5",
+    botBubbleColor: "#567787",
     botFontColor: "#fff",
     userBubbleColor: "#fff",
     userFontColor: "#4c4c4c",

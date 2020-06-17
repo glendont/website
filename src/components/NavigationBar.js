@@ -9,7 +9,7 @@ import LocalPhoneIcon from "@material-ui/icons/LocalPhone";
 
 const Styles = styled.div`
   .navbar {
-    background-color: #0a71c6;
+    background-color: #2e4049;
     padding: 5px;
     padding-left: 2%;
     padding-right: 2%;

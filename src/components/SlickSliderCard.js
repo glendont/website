@@ -24,7 +24,7 @@ const SlickSliderCard = (props) => {
               <Card.Subtitle className="mb-2 text-muted">
                 <FormatQuoteIcon
                   fontSize="large"
-                  style={{ color: "#41A4F5", transform: "rotate(180deg)" }}
+                  style={{ color: "#567787", transform: "rotate(180deg)" }}
                 />
               </Card.Subtitle>
               <Card.Text>{props.comments}</Card.Text>

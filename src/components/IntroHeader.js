@@ -28,7 +28,7 @@ const IntroHeader = () => {
         <div className="header">
           <Container
             fluid
-            style={{ backgroundColor: "#41A4F5", padding: "2rem" }}
+            style={{ backgroundColor: "#567787", padding: "2rem" }}
           >
             <Row className="justify-content-md-center">
               {/* <Col xs= {0} sm={2} md={1} lg={1} xl={1}></Col> */}
@@ -99,13 +99,14 @@ const IntroHeader = () => {
                     {" "}
                     <button
                       type="button"
-                      class="btn btn-lg btn-primary"
+                      class="btn btn-lg "
                       style={{
-                        backgroundColor: "#0A71C6",
+                        backgroundColor: "#46616E",
                         fontFamily: "poppins",
+                        color: "white",
                       }}
                     >
-                      Let's build!
+                      Let's Build!
                     </button>
                   </Link>
                 </div>

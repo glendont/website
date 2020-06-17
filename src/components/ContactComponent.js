@@ -54,12 +54,12 @@ const ContactComponent = () => {
         },
         { headers: { Accept: "application/json" } }
       )
-      .then(function (response) {
+      .then(function(response) {
         console.log(response);
         clearForm();
         alert("Thanks for reaching out!");
       })
-      .catch(function (error) {
+      .catch(function(error) {
         console.log(error);
       });
 
@@ -130,14 +130,14 @@ const ContactComponent = () => {
                       {" "}
                       <LinkedInIcon
                         fontSize="large"
-                        style={{ color: "#41A4F4" }}
+                        style={{ color: "#2E4049" }}
                       />
                     </Card.Link>
                     <Card.Link href="https://github.com/glendont">
                       {" "}
                       <GitHubIcon
                         fontSize="large"
-                        style={{ color: "#41A4F4" }}
+                        style={{ color: "#2E4049" }}
                       />
                     </Card.Link>
 
@@ -145,14 +145,14 @@ const ContactComponent = () => {
                       {" "}
                       <AlternateEmailIcon
                         fontSize="large"
-                        style={{ color: "#41A4F4" }}
+                        style={{ color: "#2E4049" }}
                       />
                     </Card.Link>
                     <Card.Link href="/website">
                       {" "}
                       <LocalPhoneIcon
                         fontSize="large"
-                        style={{ color: "#41A4F4" }}
+                        style={{ color: "#2E4049" }}
                       />
                     </Card.Link>
                   </Card.Body>
@@ -208,12 +208,12 @@ const ContactComponent = () => {
             <Row style={{ paddingLeft: "109px", paddingRight: "109px" }}>
               <Col>
                 <Button
-                  variant="primary"
+                  className="btn btn-lg"
                   onClick={activateForm}
                   style={{
                     width: "100%",
                     paddingTop: "10px",
-                    backgroundColor: "#41A4F5",
+                    backgroundColor: "#567787",
                   }}
                 >
                   Send

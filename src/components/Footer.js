@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="footer-div">
           <footer
             className="footer mt-auto py-3 text-white blue-bg"
-            style={{ backgroundColor: "#41A4F5" }}
+            style={{ backgroundColor: "#567787" }}
           >
             <Container>
               <Row>
