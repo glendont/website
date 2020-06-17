@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useContext } from "react";
+import React, { Fragment, useState, useContext, useEffect } from "react";
 import Projects from "./Projects";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
@@ -13,8 +13,27 @@ import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
+import useWindowDimensions from "./useWindowDimensions";
 
 const SearchProjects = () => {
+  const { height, width } = useWindowDimensions();
+  const [numscol, setnumscol] = useState("1fr 1fr 1fr");
+
+  useEffect(() => {
+    function handleResize() {
+      window.addEventListener("resize", handleResize);
+    }
+    handleResize();
+
+    if (width > 1200) {
+      setnumscol("1fr 1fr 1fr");
+    }
+
+    if (width < 1200) {
+      setnumscol("1fr 1fr");
+    }
+  });
+
   const useStyles = makeStyles((theme) => ({
     formControl: {
       margin: theme.spacing(1),
@@ -100,13 +119,13 @@ const SearchProjects = () => {
       <Container
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(3,1fr)",
+          gridTemplateColumns: `${numscol}`,
           gridGap: "3%",
           padding: "2%",
           overflowY: "hidden",
           justifyContent: "center",
           paddingBottom: "15rem",
-          marginTop: "-30px",
+          // marginTop: "-30px",
         }}
       >
         {projectContext.projects.projects.map((project) => (
