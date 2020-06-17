@@ -12,12 +12,18 @@ const SlickSlider = () => {
   const [numspad, setNumspad] = useState(3);
 
   useEffect(() => {
-    if (width > 1000) {
+    function handleResize() {
+      window.addEventListener("resize", handleResize);
+    }
+
+    handleResize();
+
+    if (width > 1200) {
       setNumspad(3);
     } else {
       setNumspad(1);
     }
-  }, []);
+  });
 
   var settings = {
     dots: true,
