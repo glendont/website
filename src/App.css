@@ -301,10 +301,10 @@
   /* background-color: blue; */
   overflow-x: hidden;
   overflow: hidden;
-  height: 50px;
+  height: 60px;
   justify-content: center;
   margin-bottom: 15px;
-  margin-left: -35px;
+  margin-left: -90px;
 }
 
 .slick-slider {
