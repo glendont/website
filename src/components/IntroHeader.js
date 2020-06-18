@@ -83,7 +83,8 @@ const IntroHeader = () => {
                     {" "}
                     <Typing>
                       {" "}
-                      Glendon Thaiw, <Typing.Delay ms={1000} />
+                      Glendon Thaiw,
+                      <Typing.Delay ms={2000} />
                       {/* <Typing.Backspace count={7} loop={true} /> */}
                     </Typing>
                   </h2>

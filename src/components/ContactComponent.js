@@ -207,7 +207,21 @@ const ContactComponent = () => {
             </Row>
             <Row style={{ paddingLeft: "109px", paddingRight: "109px" }}>
               <Col>
-                <Button
+                <button
+                  type="button"
+                  class="btn btn-lg"
+                  onClick={activateForm}
+                  style={{
+                    width: "100%",
+                    paddingTop: "10px",
+                    backgroundColor: "#567787",
+                    color: "white",
+                  }}
+                >
+                  Send
+                </button>
+
+                {/* <Button
                   className="btn btn-lg"
                   onClick={activateForm}
                   style={{
@@ -217,7 +231,7 @@ const ContactComponent = () => {
                   }}
                 >
                   Send
-                </Button>
+                </Button> */}
               </Col>
             </Row>
           </Container>
