@@ -98,6 +98,8 @@ const SearchProjects = () => {
                 marginTop: "30px",
                 letterSpacing: "0.05em",
                 fontSize: "25px",
+                paddingLeft: "10%",
+                paddingRight: "10%",
               }}
             >
               {" "}
