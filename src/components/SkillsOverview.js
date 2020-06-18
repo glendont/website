@@ -7,6 +7,15 @@ import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import datascienceicon from "./datasci.png";
 import CheckIcon from "@material-ui/icons/Check";
+import { useSpring, animated } from "react-spring";
+
+const calc = (x, y) => [
+  -(y - window.innerHeight / 2) / 20,
+  (x - window.innerWidth / 2) / 20,
+  1.1,
+];
+const trans = (x, y, s) =>
+  `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
 const Styles = styled.div`
   .header {
@@ -20,6 +29,11 @@ const Styles = styled.div`
 `;
 
 const SkillsOverview = () => {
+  const [props, set] = useSpring(() => ({
+    xys: [0, 0, 1],
+    config: { mass: 5, tension: 350, friction: 40 },
+  }));
+
   return (
     <Fragment>
       <Styles>
@@ -72,7 +86,16 @@ const SkillsOverview = () => {
                 xl={4}
                 style={{ paddingBottom: "20px" }}
               >
-                <Card style={{ width: "23rem", paddingBottom: "20px" }}>
+                <animated.div
+                  class="card-special-web"
+                  onMouseMove={({ clientX: x, clientY: y }) =>
+                    set({ xys: calc(x, y) })
+                  }
+                  onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                  style={{ transform: props.xys.interpolate(trans) }}
+                />
+
+                {/* <Card style={{ width: "23rem", paddingBottom: "20px" }}>
                   <Card.Body>
                     <Card.Title style={{ textAlign: "center" }}>
                       <p> Web Development </p>
@@ -124,7 +147,7 @@ const SkillsOverview = () => {
                       </ul>
                     </Card.Text>
                   </Card.Body>
-                </Card>
+                </Card> */}
               </Col>
               {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
               {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
@@ -137,9 +160,17 @@ const SkillsOverview = () => {
                 lg={4}
                 style={{ paddingBottom: "20px" }}
               >
-                <Card style={{ width: "23rem", paddingBottom: "20px" }}>
+                <animated.div
+                  class="card-special"
+                  onMouseMove={({ clientX: x, clientY: y }) =>
+                    set({ xys: calc(x, y) })
+                  }
+                  onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                  style={{ transform: props.xys.interpolate(trans) }}
+                />
+                {/* <Card style={{ width: "23rem", paddingBottom: "20px" }}>
                   {" "}
-                  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+     
                   <Card.Body>
                     <Card.Title style={{ textAlign: "center" }}>
                       <p> Data Science</p>
@@ -190,7 +221,7 @@ const SkillsOverview = () => {
                       </ul>
                     </Card.Text>
                   </Card.Body>
-                </Card>
+                </Card> */}
               </Col>
               {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
               {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
@@ -203,7 +234,15 @@ const SkillsOverview = () => {
                 lg={4}
                 style={{ paddingBottom: "20px" }}
               >
-                <Card style={{ width: "23rem", paddingBottom: "20px" }}>
+                <animated.div
+                  class="card-special-others"
+                  onMouseMove={({ clientX: x, clientY: y }) =>
+                    set({ xys: calc(x, y) })
+                  }
+                  onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                  style={{ transform: props.xys.interpolate(trans) }}
+                />
+                {/* <Card style={{ width: "23rem", paddingBottom: "20px" }}>
                   {" "}
                   <Card.Body>
                     <Card.Title style={{ textAlign: "center" }}>
@@ -256,7 +295,7 @@ const SkillsOverview = () => {
                       </ul>
                     </Card.Text>
                   </Card.Body>
-                </Card>
+                </Card> */}
               </Col>
               {/* <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col> */}
             </Row>

@@ -10,9 +10,10 @@ import LocalPhoneIcon from "@material-ui/icons/LocalPhone";
 const Styles = styled.div`
   .navbar {
     background-color: #2e4049;
-    padding: 5px;
+    // padding: 5px;
     padding-left: 2%;
     padding-right: 2%;
+    width: 100%;
   }
   a,
   .navbar-brand,
@@ -20,6 +21,7 @@ const Styles = styled.div`
     font-family: poppins;
     color: white;
     font-size: 20px;
+
     &:hover {
       font-family: poppins;
       color: #bbb;
