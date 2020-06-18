@@ -370,10 +370,10 @@
 }
 
 /* //// */
-.card-special:hover {
+.card-special-datasci:hover {
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
 }
-.card-special {
+.card-special-datasci {
   width: 35ch;
   height: 38ch;
   background: grey;

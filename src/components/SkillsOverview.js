@@ -29,7 +29,15 @@ const Styles = styled.div`
 `;
 
 const SkillsOverview = () => {
-  const [props, set] = useSpring(() => ({
+  const [props_1, set_1] = useSpring(() => ({
+    xys: [0, 0, 1],
+    config: { mass: 5, tension: 350, friction: 40 },
+  }));
+  const [props_2, set_2] = useSpring(() => ({
+    xys: [0, 0, 1],
+    config: { mass: 5, tension: 350, friction: 40 },
+  }));
+  const [props_3, set_3] = useSpring(() => ({
     xys: [0, 0, 1],
     config: { mass: 5, tension: 350, friction: 40 },
   }));
@@ -89,10 +97,10 @@ const SkillsOverview = () => {
                 <animated.div
                   class="card-special-web"
                   onMouseMove={({ clientX: x, clientY: y }) =>
-                    set({ xys: calc(x, y) })
+                    set_1({ xys: calc(x, y) })
                   }
-                  onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                  style={{ transform: props.xys.interpolate(trans) }}
+                  onMouseLeave={() => set_1({ xys: [0, 0, 1] })}
+                  style={{ transform: props_1.xys.interpolate(trans) }}
                 />
 
                 {/* <Card style={{ width: "23rem", paddingBottom: "20px" }}>
@@ -161,12 +169,12 @@ const SkillsOverview = () => {
                 style={{ paddingBottom: "20px" }}
               >
                 <animated.div
-                  class="card-special"
+                  class="card-special-datasci"
                   onMouseMove={({ clientX: x, clientY: y }) =>
-                    set({ xys: calc(x, y) })
+                    set_2({ xys: calc(x, y) })
                   }
-                  onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                  style={{ transform: props.xys.interpolate(trans) }}
+                  onMouseLeave={() => set_2({ xys: [0, 0, 1] })}
+                  style={{ transform: props_2.xys.interpolate(trans) }}
                 />
                 {/* <Card style={{ width: "23rem", paddingBottom: "20px" }}>
                   {" "}
@@ -237,10 +245,10 @@ const SkillsOverview = () => {
                 <animated.div
                   class="card-special-others"
                   onMouseMove={({ clientX: x, clientY: y }) =>
-                    set({ xys: calc(x, y) })
+                    set_3({ xys: calc(x, y) })
                   }
-                  onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                  style={{ transform: props.xys.interpolate(trans) }}
+                  onMouseLeave={() => set_3({ xys: [0, 0, 1] })}
+                  style={{ transform: props_3.xys.interpolate(trans) }}
                 />
                 {/* <Card style={{ width: "23rem", paddingBottom: "20px" }}>
                   {" "}
