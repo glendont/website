@@ -18,7 +18,7 @@ import useWindowDimensions from "./useWindowDimensions";
 const SearchProjects = () => {
   const { height, width } = useWindowDimensions();
   const [numscol, setnumscol] = useState("1fr 1fr 1fr");
-
+  const [presetheight, setpresetheight] = useState("100%");
   useEffect(() => {
     function handleResize() {
       window.addEventListener("resize", handleResize);
@@ -27,10 +27,17 @@ const SearchProjects = () => {
 
     if (width > 1200) {
       setnumscol("1fr 1fr 1fr");
+      setpresetheight("100%");
     }
 
-    if (width < 1200) {
+    if (width < 1200 && width > 770) {
       setnumscol("1fr 1fr");
+      setpresetheight("100%");
+    }
+
+    if (width < 770) {
+      setnumscol("1fr");
+      setpresetheight("3400px");
     }
   });
 
@@ -61,7 +68,7 @@ const SearchProjects = () => {
 
   return (
     <Fragment>
-      <Container style={{ padding: "2%" }}>
+      <div style={{ padding: "2%" }}>
         <Row>
           <Col>
             <h1
@@ -114,26 +121,30 @@ const SearchProjects = () => {
             </FormControl>
           </Row>
         </div>
-      </Container>
+      </div>
 
       <Container
         style={{
           display: "grid",
           gridTemplateColumns: `${numscol}`,
           gridGap: "3%",
-          padding: "2%",
+          padding: "6%",
           overflowY: "hidden",
           justifyContent: "center",
           paddingBottom: "15rem",
-          // marginTop: "-30px",
+          height: `${presetheight}`,
         }}
       >
         {projectContext.projects.projects.map((project) => (
           <Card
             style={{
-              width: "20rem",
+              display: "flex",
+              flexDirection: "column",
               justifyContent: "center",
+              width: "100%",
+              overflowY: "hidden",
               height: "24rem",
+              // left: "10%",
             }}
           >
             <Projects

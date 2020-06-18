@@ -38,7 +38,7 @@ const Projects = (props) => {
     setOpen(false);
   };
 
-  const mainClassName = props.css + "animated fadeInUp card text-center";
+  const mainClassName = props.css + "animated fadeIn card text-center";
 
   return (
     <div className={mainClassName} ref={ref}>
@@ -57,7 +57,7 @@ const Projects = (props) => {
       />
       {hovered ? (
         <div className="projectWordedDiv" style={{ height: "230px" }}>
-          <div className="innerNameFlex animated fadeInDown">
+          <div className="innerNameFlex animated zoomIn">
             <div className="alignTextDiv">
               <p
                 className="lead ProjectNameWords"
@@ -69,7 +69,7 @@ const Projects = (props) => {
             </div>
           </div>
 
-          <div className="innerButtonFlex animated fadeInUp">
+          <div className="innerButtonFlex animated fadeIn">
             <Button
               onClick={handleOpen}
               variant="outline-secondary"
@@ -87,6 +87,7 @@ const Projects = (props) => {
           <img
             style={{
               minWidth: "100%",
+              width: "100%",
               maxWidth: "100%",
               height: "230px",
             }}
