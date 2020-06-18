@@ -19,6 +19,7 @@ const SearchProjects = () => {
   const { height, width } = useWindowDimensions();
   const [numscol, setnumscol] = useState("1fr 1fr 1fr");
   const [presetheight, setpresetheight] = useState("100%");
+  const [presetmargintop, setpresetmargintop] = useState("-5%");
   useEffect(() => {
     function handleResize() {
       window.addEventListener("resize", handleResize);
@@ -28,16 +29,19 @@ const SearchProjects = () => {
     if (width > 1200) {
       setnumscol("1fr 1fr 1fr");
       setpresetheight("100%");
+      setpresetmargintop("-5%");
     }
 
     if (width < 1200 && width > 770) {
       setnumscol("1fr 1fr");
       setpresetheight("100%");
+      setpresetmargintop("-5%");
     }
 
     if (width < 770) {
       setnumscol("1fr");
       setpresetheight("3400px");
+      setpresetmargintop("1%");
     }
   });
 
@@ -128,11 +132,12 @@ const SearchProjects = () => {
           display: "grid",
           gridTemplateColumns: `${numscol}`,
           gridGap: "3%",
-          padding: "6%",
+          padding: "5%",
           overflowY: "hidden",
           justifyContent: "center",
           paddingBottom: "15rem",
           height: `${presetheight}`,
+          marginTop: `${presetmargintop}`,
         }}
       >
         {projectContext.projects.projects.map((project) => (
@@ -144,7 +149,6 @@ const SearchProjects = () => {
               width: "100%",
               overflowY: "hidden",
               height: "24rem",
-              // left: "10%",
             }}
           >
             <Projects
