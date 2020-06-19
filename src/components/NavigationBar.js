@@ -7,32 +7,16 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 import LocalPhoneIcon from "@material-ui/icons/LocalPhone";
 
-// const Styles = styled.div`
-//   .navbar {
-//     background-color: #2e4049;
-//     // padding: 5px;
-//     padding-left: 2%;
-//     padding-right: 2%;
-//     width: 100%;
-//   }
-//   a,
-//   .navbar-brand,
-//   .navbar-nav .nav-link {
-//     font-family: poppins;
-//     color: white;
-//     font-size: 20px;
-
-//     &:hover {
-//       font-family: poppins;
-//       color: #bbb;
-//     }
-//   }
-// `;
-
 const NavigationBar = () => (
   <nav className="navbar" style={{ backgroundColor: "#2F4049" }}>
     <div
-      style={{ display: "flex", flexDirection: "row", fontFamily: "poppins" }}
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        fontFamily: "poppins",
+        fontStyle: "bold",
+        fontSize: "18px",
+      }}
     >
       <Nav.Item>
         <Nav.Link>
