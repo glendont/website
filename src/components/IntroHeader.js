@@ -137,7 +137,7 @@ const IntroHeader = () => {
                       {" "}
                       <button
                         type="button"
-                        class="btn btn-lg "
+                        className="btn btn-lg header-words-button"
                         style={{
                           backgroundColor: "#46616E",
                           fontFamily: "poppins",

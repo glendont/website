@@ -495,9 +495,12 @@
     vertical-align: center;
     width: 70%;
     height: 70%;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-right: 0px;
     margin-left: 0px;
+  }
+  .header-words-button {
+    margin-bottom: 50px;
   }
 }
 
@@ -506,7 +509,7 @@
     font-size: 14px;
   }
   .header-words-name {
-    font-size: 37px;
+    font-size: 35px;
   }
   .header-words-hey {
     font-size: 16px;
