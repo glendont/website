@@ -53,7 +53,7 @@ const NavigationBar = () => (
         <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link>
-              <Link to="/website">Home</Link>
+              <Link to="/">Home</Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>

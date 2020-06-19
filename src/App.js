@@ -13,10 +13,10 @@ const App = () => {
   return (
     <ProjectState>
       <Fragment>
-        <Router>
+        <Router basename="/">
           <NavigationBar />
           <Switch>
-            <Route exact path="/website" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/projects" component={ProjectPage} />
             <Route exact path="/contact" component={Contact} />
             <Route component={Home} />

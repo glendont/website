@@ -420,15 +420,16 @@
   will-change: transform;
   /* border: 15px solid white; */
 }
-/* 
+
 .main-special {
   position: relative;
   width: 100%;
-  height: 40vh;
+  height: 25rem;
   background: #567786;
   cursor: pointer;
+
   overflow: hidden;
-} */
+}
 
 .fill-special {
   position: absolute;
