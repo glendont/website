@@ -1,4 +1,10 @@
-import React, { Fragment, useState, useRef, useEffect } from "react";
+import React, {
+  Fragment,
+  useState,
+  useRef,
+  useEffect,
+  useCallback,
+} from "react";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -8,7 +14,7 @@ import Image from "react-bootstrap/Image";
 import { Spring } from "react-spring/renderprops";
 import Typing from "react-typing-animation";
 import { useSpring, animated } from "react-spring";
-import ResizeObserver from "resize-observer-polyfill";
+import { useTransition } from "react-spring";
 
 const Styles = styled.div`
   .main-special {
@@ -34,38 +40,16 @@ const Styles = styled.div`
   }
 `;
 
-// function useMeasure() {
-//   const ref = useRef();
-//   const [bounds, set] = useState({ left: 0, top: 0, width: 0, height: 0 });
-//   const [ro] = useState(
-//     () => new ResizeObserver(([entry]) => set(entry.contentRect))
-//   );
-//   useEffect(() => (ro.observe(ref.current), ro.disconnect), []);
-//   return [{ ref }, bounds];
-// }
-
 const IntroHeader = () => {
-  // const [open, toggle] = useState(false);
-  // const [bind, { width }] = useMeasure();
-  // const props = useSpring({ width: open ? width : 0 });
   return (
     <Fragment>
       <Styles>
-        {/* <div
-          {...bind}
-          class="main-special"
-          onMouseEnter={() => toggle(!open)}
-          onMouseLeave={() => toggle(!open)}
-        >
-          <animated.div class="fill-special" style={props} />
-          <animated.div class="content-special"> */}
         <div className="header">
           <Container
             fluid
             style={{ backgroundColor: "#567787", padding: "2rem" }}
           >
             <Row className="justify-content-md-center">
-              {/* <Col xs= {0} sm={2} md={1} lg={1} xl={1}></Col> */}
               <Col xs={0} sm={0} md={1} lg={0} xl={2}></Col>
               <Col
                 xs={7}
@@ -119,7 +103,7 @@ const IntroHeader = () => {
                     {" "}
                     <Typing>
                       {" "}
-                      Glendon Thaiw,
+                      Glendon Thaiw
                       <Typing.Delay ms={2000} />
                     </Typing>
                   </h2>
