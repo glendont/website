@@ -148,7 +148,7 @@ const ContactComponent = () => {
                         style={{ color: "#2E4049" }}
                       />
                     </Card.Link>
-                    <Card.Link href="/website">
+                    <Card.Link href="/">
                       {" "}
                       <LocalPhoneIcon
                         fontSize="large"
