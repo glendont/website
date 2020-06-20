@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Tooltip as tooltip, OverlayTrigger, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { ProjectDialog } from "./ProjectDialog";
 import { useHoverLeave } from "./customHooks/useHoverLeave";
 import { useWindowDimensions } from "./customHooks/useWindowDimensions";

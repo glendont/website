@@ -3,10 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styled from "styled-components";
-import Image from "react-bootstrap/Image";
-import Card from "react-bootstrap/Card";
-import datascienceicon from "./datasci.png";
-import CheckIcon from "@material-ui/icons/Check";
 import { useSpring, animated } from "react-spring";
 
 const calc = (x, y) => [

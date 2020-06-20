@@ -1,20 +1,11 @@
-import React, {
-  Fragment,
-  useState,
-  useRef,
-  useEffect,
-  useCallback,
-} from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
-import { Spring } from "react-spring/renderprops";
 import Typing from "react-typing-animation";
-import { useSpring, animated } from "react-spring";
-import { useTransition } from "react-spring";
 
 const Styles = styled.div`
   .main-special {
