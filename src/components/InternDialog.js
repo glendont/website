@@ -116,7 +116,10 @@ export const InternDialog = (props) => {
                 </b>{" "}
                 <hr></hr>
               </Card.Text>
-              <Card.Text className="lead" style={{ fontSize: "15px" }}>
+              <Card.Text
+                className="lead"
+                style={{ fontSize: "15px", marginLeft: "10px" }}
+              >
                 <ul>
                   {props.contributions_1 ? (
                     <li> {props.contributions_1}</li>

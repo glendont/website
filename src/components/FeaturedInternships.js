@@ -219,7 +219,7 @@ const FeaturedInternships = () => {
                   visualization for different stakeholders"
                   contributions_4="Built a production Recommender System through Latent
                   Feature Modelling with dimensionality reduction techniques"
-                  contributions_5="• Deployed Random Forest Regression models to draw insights
+                  contributions_5="Deployed Random Forest Regression models to draw insights
                   regarding patient experience for a local hospital"
                 />
 
