@@ -67,7 +67,7 @@ const FeaturedInternships = () => {
             >
               <Card
                 style={{
-                  width: "55vw",
+                  width: "80vw",
                   paddingBottom: "20px",
                   height: "325px",
                 }}
@@ -129,7 +129,7 @@ const FeaturedInternships = () => {
             >
               <Card
                 style={{
-                  width: "55vw",
+                  width: "80vw",
                   paddingBottom: "20px",
                   height: "325px",
                 }}
@@ -195,7 +195,7 @@ const FeaturedInternships = () => {
             >
               <Card
                 style={{
-                  width: "55vw",
+                  width: "80vw",
                   paddingBottom: "20px",
                   height: "325px",
                 }}
@@ -263,7 +263,7 @@ const FeaturedInternships = () => {
             >
               <Card
                 style={{
-                  width: "55vw",
+                  width: "80vw",
                   paddingBottom: "20px",
                   height: "325px",
                 }}

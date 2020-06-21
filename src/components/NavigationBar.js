@@ -20,6 +20,10 @@ const onClick = () => {
         0.2}s`;
     }
   });
+
+  // Burg Animation
+  const burger = document.querySelector(".burger");
+  burger.classList.toggle("toggle");
 };
 
 const NavigationBar = () => (
