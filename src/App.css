@@ -697,6 +697,9 @@ body {
     transition: transform 0.3s ease-in;
     z-index: 1;
     margin-top: 0px;
+    opacity: 0.9;
+
+    font-size: 20px;
   }
 
   .navbar-logo {

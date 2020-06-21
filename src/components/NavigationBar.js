@@ -48,33 +48,6 @@ const NavigationBar = () => (
         <Link to="/contact">Contact</Link>
       </li>
     </ul>
-    {/* <Nav.Item>
-        <Nav.Link>
-          <Link to="/website">Home</Link>
-        </Nav.Link>
-      </Nav.Item>
-
-      <Nav.Item>
-        <Nav.Link>
-          <Link to="/projects">Projects</Link>
-        </Nav.Link>
-      </Nav.Item>
-
-      <Nav.Item style={{ marginTop: "7px" }}>
-        <a
-          href="https://www.keepandshare.com/doc7/62364/resume-of-glendon-1-pdf-38k?da=y"
-          target="_blank"
-        >
-          Resume
-        </a>
-      </Nav.Item>
-
-      <Nav.Item>
-        <Nav.Link>
-          <Link to="/contact">Contact</Link>
-        </Nav.Link>
-      </Nav.Item> */}
-    {/* </div> */}
 
     <div className="burger" onClick={onClick}>
       <div className="line1"> </div>
@@ -85,21 +58,21 @@ const NavigationBar = () => (
     <Fragment>
       <ul className="navbar-logo">
         <li>
-          <a href="/website">
+          <a href="https://www.linkedin.com/in/glendonthaiw/">
             {" "}
             <LinkedInIcon fontSize="medium" />{" "}
           </a>
         </li>
 
         <li>
-          <a href="/projects">
+          <a href="https://github.com/glendont">
             {" "}
             <GitHubIcon fontSize="small" />{" "}
           </a>
         </li>
 
         <li>
-          <a href="#">
+          <a href="mailto:glendon888@gmail.com">
             {" "}
             <AlternateEmailIcon fontSize="medium" />{" "}
           </a>
@@ -113,82 +86,7 @@ const NavigationBar = () => (
         </li>
       </ul>
     </Fragment>
-    {/* 
-    <div style={{ justifyContent: "right" }}>
-      <Navbar.Brand href="https://www.linkedin.com/in/glendonthaiw/">
-        <LinkedInIcon fontSize="medium" />
-      </Navbar.Brand>
-
-      <Navbar.Brand href="https://github.com/glendont">
-        <GitHubIcon fontSize="small" />
-      </Navbar.Brand>
-
-      <Navbar.Brand href="mailto:glendon888@gmail.com">
-        <AlternateEmailIcon fontSize="medium" />
-      </Navbar.Brand>
-
-      <Navbar.Brand href="/contact">
-        <LocalPhoneIcon fontSize="medium" />
-      </Navbar.Brand>
-    </div> */}
   </nav>
-
-  // <Styles>
-  //   <Navbar>
-  // <Navbar.Brand href="https://www.linkedin.com/in/glendonthaiw/">
-  //   <LinkedInIcon fontSize="medium" />
-  // </Navbar.Brand>
-
-  // <Navbar.Brand href="https://github.com/glendont">
-  //   <GitHubIcon fontSize="small" />
-  // </Navbar.Brand>
-
-  // <Navbar.Brand href="mailto:glendon888@gmail.com">
-  //   <AlternateEmailIcon fontSize="medium" />
-  // </Navbar.Brand>
-
-  // <Navbar.Brand href="/contact">
-  //   <LocalPhoneIcon fontSize="medium" />
-  // </Navbar.Brand>
-
-  //     <div className="spacer" />
-
-  //     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  //     <Navbar.Collapse id="basic-navbar-nav">
-  //       <Nav className="ml-auto">
-  //         <Nav.Item>
-  //           <Nav.Link>
-  //             <Link to="/website">Home</Link>
-  //           </Nav.Link>
-  //         </Nav.Item>
-  //         <Nav.Item>
-  //           <Nav.Link>
-  //             <Link to="/projects">Projects</Link>
-  //           </Nav.Link>
-  //         </Nav.Item>
-  //         <Nav.Item
-  //           style={{
-  //             marginTop: "7.5px",
-  //             marginRight: "3px",
-  //             marginLeft: "4px",
-  //           }}
-  //         >
-  //           <a
-  //             href="https://www.keepandshare.com/doc7/62364/resume-of-glendon-1-pdf-38k?da=y"
-  //             target="_blank"
-  //           >
-  //             Resume
-  //           </a>
-  //         </Nav.Item>
-  //         <Nav.Item>
-  //           <Nav.Link>
-  //             <Link to="/contact">Contact</Link>
-  //           </Nav.Link>
-  //         </Nav.Item>
-  //       </Nav>
-  //     </Navbar.Collapse>
-  //   </Navbar>
-  // </Styles>
 );
 
 export default NavigationBar;
