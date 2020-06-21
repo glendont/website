@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Poppins", "Lato", "Roboto", sans-serif;
+  /* font-family: "Poppins", "Lato", "Roboto", sans-serif; */
   padding: 0px;
 }
 
@@ -774,8 +774,4 @@ body {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
-}
-
-.nav-links-home {
-  font-size: 30px;
 }

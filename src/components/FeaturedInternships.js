@@ -21,7 +21,8 @@ const FeaturedInternships = () => {
       <Fragment>
         <Container>
           <Row>
-            <Col>
+            <Col xs={1}> </Col>
+            <Col xs={10}>
               <h1
                 style={{
                   textAlign: "center",
@@ -53,6 +54,7 @@ const FeaturedInternships = () => {
                 different organisations
               </p>
             </Col>
+            <Col xs={1}> </Col>
           </Row>
 
           <Row style={{ paddingTop: "20px" }}>

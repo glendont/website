@@ -30,19 +30,19 @@ const SearchProjects = () => {
     if (width > 1200) {
       setnumscol("1fr 1fr 1fr");
       setpresetheight("100%");
-      setpresetmargintop("-5%");
+      setpresetmargintop("-3%");
     }
 
     if (width < 1200 && width > 770) {
       setnumscol("1fr 1fr");
       setpresetheight("100%");
-      setpresetmargintop("-5%");
+      setpresetmargintop("-2%");
     }
 
     if (width < 770) {
       setnumscol("1fr");
       setpresetheight("3400px");
-      setpresetmargintop("1%");
+      setpresetmargintop("-0%");
     }
   });
 
@@ -138,13 +138,15 @@ const SearchProjects = () => {
         style={{
           display: "grid",
           gridTemplateColumns: `${numscol}`,
-          gridGap: "3%",
-          padding: "5%",
+          gridGap: "2%",
+          padding: "3%",
           overflowY: "hidden",
           justifyContent: "center",
           paddingBottom: "15rem",
           height: `${presetheight}`,
           marginTop: `${presetmargintop}`,
+          marginBottom: "5rem",
+          width: "80%",
         }}
       >
         {projectContext.projects.projects.map((project) => (
@@ -152,6 +154,7 @@ const SearchProjects = () => {
             style={{
               display: "flex",
               flexDirection: "column",
+              alignItems: "center",
               justifyContent: "center",
               width: "100%",
               overflowY: "hidden",

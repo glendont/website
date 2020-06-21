@@ -80,10 +80,7 @@ const Projects = (props) => {
           </div>
         </div>
       ) : (
-        <div
-          className="projectImageDiv animated fadeIn"
-          style={{ zIndex: "100" }}
-        >
+        <div className="projectImageDiv animated fadeIn">
           <img
             style={{
               minWidth: "100%",
