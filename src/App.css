@@ -576,10 +576,6 @@ body {
   text-decoration: underline;
 }
 
-.navbar .welcome span {
-  /* margin-right: 0.6rem; */
-}
-
 .burger div {
   width: 25px;
   height: 3px;
@@ -589,15 +585,6 @@ body {
 
 .burger {
   display: none;
-}
-/* Mobile Styles */
-
-.list {
-  margin: 0.5rem 0;
-}
-
-.list li {
-  padding-bottom: 0.3rem;
 }
 
 @keyframes moveInLeft {
@@ -644,15 +631,35 @@ body {
   letter-spacing: 1px;
 }
 
+/* Mobile Responsive CSS  */
+
+@media screen and (max-width: 1600px) {
+  .nav-links {
+    width: 40%;
+  }
+
+  .navbar-logo {
+    width: 20%;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .nav-links {
-    width: 35%;
+    width: 40%;
+    font-size: 17px;
+  }
+
+  .navbar-logo {
+    width: 20%;
   }
 }
 
 @media screen and (max-width: 1250px) {
   .nav-links {
-    width: 45%;
+    width: 40%;
+  }
+  .navbar-logo {
+    width: 18%;
   }
 }
 
@@ -704,11 +711,11 @@ body {
 
   .navbar-logo {
     position: absolute;
-    right: 10%;
+    right: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 25%;
+    width: 30%;
     font-family: "Poppins";
     font-size: 19px;
     letter-spacing: 1px;
@@ -730,20 +737,6 @@ body {
     left: 10%;
     display: block;
     cursor: pointer;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .navbar-logo {
-    position: absolute;
-    right: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 33%;
-    font-family: "Poppins";
-    font-size: 19px;
-    letter-spacing: 1px;
   }
 }
 
@@ -772,6 +765,8 @@ body {
     transform: translateX(0px);
   }
 }
+
+/* Burger Animation */
 
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
