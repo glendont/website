@@ -61,7 +61,7 @@ const FeaturedProjects = () => {
             >
               <Card
                 style={{
-                  width: "330px",
+                  width: "300px",
                   paddingBottom: "20px",
                   height: "380px",
                 }}
@@ -121,7 +121,7 @@ const FeaturedProjects = () => {
             >
               <Card
                 style={{
-                  width: "330px",
+                  width: "300px",
                   paddingBottom: "20px",
                   height: "380px",
                 }}
@@ -173,7 +173,7 @@ const FeaturedProjects = () => {
             >
               <Card
                 style={{
-                  width: "330px",
+                  width: "300px",
                   paddingBottom: "20px",
                   height: "380px",
                 }}
