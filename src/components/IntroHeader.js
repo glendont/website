@@ -115,6 +115,9 @@ const IntroHeader = () => {
                         backgroundColor: "#46616E",
                         fontFamily: "poppins",
                         color: "white",
+                        animationName: "moveInLeft",
+                        animationTimingFunction: "ease-out",
+                        animationDuration: "2s",
                       }}
                     >
                       Let's Build!
