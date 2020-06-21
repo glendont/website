@@ -24,6 +24,18 @@ const onClick = () => {
   // Burg Animation
   const burger = document.querySelector(".burger");
   burger.classList.toggle("toggle");
+
+  if (nav.classList.value.includes("nav-active")) {
+    const navLinks = document.querySelectorAll(".nav-links");
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        console.log("click");
+        onClick();
+        // nav.classList.toggle("nav-active");
+      });
+    });
+  }
 };
 
 const NavigationBar = () => (
