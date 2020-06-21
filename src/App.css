@@ -733,7 +733,7 @@ body {
 
   .burger {
     position: absolute;
-    left: 10%;
+    left: 5%;
     display: block;
     cursor: pointer;
   }
@@ -741,7 +741,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .nav-links {
-    width: 35%;
+    width: 100%;
   }
   .navbar-logo {
     position: absolute;

@@ -50,23 +50,14 @@ const IntroHeader = () => {
                 xl={2}
                 className="d-flex justify-content-center text-center m-auto"
               >
-                {/* <Col xs={4} sm={3} md={0} lg={0} xl={0}></Col> */}
                 <Image
                   className="header-round-image"
-                  // style={{
-                  //   width: "90%",
-                  //   height: "90%",
-                  //   textalign: "center",
-                  //   verticalAlign: "center",
-                  //   marginRight: "-25px",
-                  //   marginLeft: "25px",
-                  // }}
                   src="https://avatars1.githubusercontent.com/u/45989586?s=400&u=af9fc12c50aad8e49d5a4ae91af15a5edc9be2fb&v=4"
                   roundedCircle
                 />{" "}
               </Col>
 
-              <Col xs={12} sm={6} md={7} lg={7} xl={6}>
+              <Col xs={12} sm={6} md={6} lg={7} xl={6}>
                 <div
                   className="textContainer header-words-hey"
                   style={{ fontFamily: "Poppins" }}
@@ -79,18 +70,7 @@ const IntroHeader = () => {
                     </h5>{" "}
                   </div>
 
-                  <h2
-                    className="mt-0 display-4 font-weight-bold text-white header-words-name"
-                    // className="mt-0 display-4 font-weight-bold text-white animate__animated animate__headShake"
-                    // style={{
-                    //   fontFamily: "Poppins",
-                    //   fontWeight: "normal",
-                    //   textShadow: "0px 1px, 1px 0px, 1px 1px",
-                    //   letterSpacing: "0.003em",
-                    //   color: "#102A42",
-                    //   fontSize: "55px",
-                    // }}
-                  >
+                  <h2 className="mt-0 display-4 font-weight-bold text-white header-words-name">
                     {" "}
                     <Typing>
                       {" "}
