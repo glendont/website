@@ -20,6 +20,7 @@ const SearchProjects = () => {
   const [numscol, setnumscol] = useState("1fr 1fr 1fr");
   const [presetheight, setpresetheight] = useState("100%");
   const [presetmargintop, setpresetmargintop] = useState("-5%");
+
   useEffect(() => {
     function handleResize() {
       window.addEventListener("resize", handleResize);
@@ -48,7 +49,7 @@ const SearchProjects = () => {
   const useStyles = makeStyles((theme) => ({
     formControl: {
       margin: theme.spacing(1),
-      minWidth: 400,
+      minWidth: 280,
     },
     selectEmpty: {
       marginTop: theme.spacing(100),
@@ -109,7 +110,11 @@ const SearchProjects = () => {
           </Col>
         </Row>
         <div>
-          <Row style={{ justifyContent: "center" }}>
+          <Row
+            style={{
+              justifyContent: "center",
+            }}
+          >
             <FormControl variant="outlined" className={classes.formControl}>
               <InputLabel id="demo-simple-select-outlined-label">
                 Categories

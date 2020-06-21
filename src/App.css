@@ -704,7 +704,6 @@ body {
     z-index: 1;
     margin-top: 0px;
     opacity: 0.9;
-
     font-size: 20px;
   }
 
@@ -775,4 +774,8 @@ body {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.nav-links-home {
+  font-size: 30px;
 }

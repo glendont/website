@@ -26,29 +26,39 @@ const onClick = () => {
   burger.classList.toggle("toggle");
 
   if (nav.classList.value.includes("nav-active")) {
-    const navLinks = document.querySelectorAll(".nav-links");
+    const home = document.querySelector(".nav-links-homepage");
+    const projects = document.querySelector(".nav-links-projects");
+    const resume = document.querySelector(".nav-links-resume");
+    const contact = document.querySelector(".nav-links-contact");
 
-    navLinks.forEach((link) => {
-      link.addEventListener("click", () => {
-        console.log("click");
-        onClick();
-        // nav.classList.toggle("nav-active");
-      });
+    home.addEventListener("click", () => {
+      onClick();
+    });
+
+    projects.addEventListener("click", () => {
+      onClick();
+    });
+
+    resume.addEventListener("click", () => {
+      onClick();
+    });
+
+    contact.addEventListener("click", () => {
+      onClick();
     });
   }
 };
 
 const NavigationBar = () => (
   <nav className="navbar" style={{ backgroundColor: "#2F4049" }}>
-    {/* <div className="nav-links"> */}
     <ul className="nav-links">
-      <li>
+      <li className="nav-links-homepage">
         <Link to="/website">Home</Link>{" "}
       </li>
-      <li>
+      <li className="nav-links-projects">
         <Link to="/projects">Projects</Link>
       </li>
-      <li>
+      <li className="nav-links-resume">
         <a
           href="https://www.keepandshare.com/doc7/62364/resume-of-glendon-1-pdf-38k?da=y"
           target="_blank"
@@ -56,7 +66,7 @@ const NavigationBar = () => (
           Resume
         </a>
       </li>
-      <li>
+      <li className="nav-links-contact">
         <Link to="/contact">Contact</Link>
       </li>
     </ul>
