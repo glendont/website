@@ -70,7 +70,7 @@ const ContactComponent = () => {
     <Fragment>
       <div className="contact-component-div">
         <footer className="footer mt-auto py-3 text-white blue-bg">
-          <Container style={{ height: "865px" }}>
+          <Container style={{ height: "865px", width: "80vw" }}>
             <Row style={{ padding: "50px" }}>
               <Col className="d-flex justify-content-center text-center m-auto">
                 <Image
@@ -91,7 +91,7 @@ const ContactComponent = () => {
               <Col className="d-flex justify-content-center text-center m-auto">
                 <Card
                   style={{
-                    width: "52vw",
+                    width: "80vw",
                     padding: "2%",
                   }}
                 >
@@ -162,8 +162,8 @@ const ContactComponent = () => {
 
             <Row
               style={{
-                paddingLeft: "109px",
-                paddingRight: "109px",
+                // paddingLeft: "109px",
+                // paddingRight: "109px",
                 paddingTop: "20px",
               }}
             >
@@ -190,7 +190,7 @@ const ContactComponent = () => {
                 </Form>
               </Col>
             </Row>
-            <Row style={{ paddingLeft: "109px", paddingRight: "109px" }}>
+            <Row>
               <Col>
                 <Form>
                   <Form.Group controlId="formBasicEmail">
@@ -205,13 +205,15 @@ const ContactComponent = () => {
                 </Form>
               </Col>
             </Row>
-            <Row style={{ paddingLeft: "109px", paddingRight: "109px" }}>
+            <Row>
               <Col>
                 <button
                   type="button"
                   class="btn btn-lg"
                   onClick={activateForm}
                   style={{
+                    justifyContent: "center",
+                    alignItems: "center",
                     width: "100%",
                     paddingTop: "10px",
                     backgroundColor: "#567787",
@@ -220,18 +222,6 @@ const ContactComponent = () => {
                 >
                   Send
                 </button>
-
-                {/* <Button
-                  className="btn btn-lg"
-                  onClick={activateForm}
-                  style={{
-                    width: "100%",
-                    paddingTop: "10px",
-                    backgroundColor: "#567787",
-                  }}
-                >
-                  Send
-                </Button> */}
               </Col>
             </Row>
           </Container>
