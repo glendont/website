@@ -27,16 +27,21 @@ const NavigationBar = () => (
     {/* <div className="nav-links"> */}
     <ul className="nav-links">
       <li>
-        <a href="/website"> Home </a>
+        <Link to="/website">Home</Link>{" "}
       </li>
       <li>
-        <a href="/projects"> Projects </a>
+        <Link to="/projects">Projects</Link>
       </li>
       <li>
-        <a href="#"> Resume </a>
+        <a
+          href="https://www.keepandshare.com/doc7/62364/resume-of-glendon-1-pdf-38k?da=y"
+          target="_blank"
+        >
+          Resume
+        </a>
       </li>
       <li>
-        <a href="/contact"> Contact </a>
+        <Link to="/contact">Contact</Link>
       </li>
     </ul>
     {/* <Nav.Item>
