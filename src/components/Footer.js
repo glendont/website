@@ -37,6 +37,7 @@ const Footer = () => {
                       textalign: "center",
                       verticalAlign: "center",
                       marginTop: "40px",
+                      marginBottom: "10px",
                     }}
                     src="https://avatars1.githubusercontent.com/u/45989586?s=400&u=af9fc12c50aad8e49d5a4ae91af15a5edc9be2fb&v=4"
                     roundedCircle
@@ -49,7 +50,7 @@ const Footer = () => {
                 {/* <Col></Col> */}
                 <Col className="d-flex justify-content-center text-center m-auto">
                   <h1
-                    className="lead"
+                    className="lead sub-header"
                     style={{
                       fontWeight: "500",
                       fontFamily: "poppins",
@@ -63,22 +64,25 @@ const Footer = () => {
                 {/* <Col></Col> */}
               </Row>
               <Row xs={1} sm={1} style={{ height: "100px" }}>
-                <p
-                  className="lead"
-                  style={{
-                    paddingTop: "10px",
-                    textAlign: "center",
-                    fontWeight: "400",
-                    fontFamily: "poppins",
-                    letterSpacing: "0.04em",
-                    fontSize: "16px",
-                  }}
-                >
-                  To start an initial chat, just drop me an email at{" "}
-                  <u>glendon888@gmail.com </u> or use the form on the contact
-                  page.
-                </p>
-                <br></br>
+                <Col xs={1}> </Col>
+                <Col xs={10}>
+                  <p
+                    className="lead sub-header-small"
+                    style={{
+                      paddingTop: "10px",
+                      textAlign: "center",
+                      fontWeight: "400",
+                      fontFamily: "poppins",
+                      letterSpacing: "0.04em",
+                    }}
+                  >
+                    To start an initial chat, just drop me an email at{" "}
+                    <u>glendon888@gmail.com </u> or use the form on the contact
+                    page.
+                  </p>
+                  <br></br>
+                </Col>
+                <Col xs={1}> </Col>
               </Row>
               <Row xs={1} sm={1} style={{ marginBottom: "20px" }}>
                 <Col

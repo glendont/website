@@ -77,6 +77,7 @@ const SearchProjects = () => {
         <Row>
           <Col>
             <h1
+              className="header-title"
               style={{
                 textAlign: "center",
                 paddingTop: "30px",
@@ -91,14 +92,14 @@ const SearchProjects = () => {
             </h1>
 
             <p
-              className="lead text"
+              className="lead text sub-header"
               style={{
                 fontFamily: "Poppins",
                 fontWeight: "700",
                 textAlign: "center",
                 marginTop: "30px",
                 letterSpacing: "0.05em",
-                fontSize: "25px",
+
                 paddingLeft: "10%",
                 paddingRight: "10%",
               }}

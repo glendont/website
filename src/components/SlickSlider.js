@@ -39,8 +39,10 @@ const SlickSlider = () => {
       <div style={{ backgroundColor: "#f7f8fa" }}>
         <Container>
           <Row>
-            <Col>
+            <Col xs={1}> </Col>
+            <Col xs={10}>
               <h1
+                className="header-title"
                 style={{
                   textAlign: "center",
                   paddingTop: "50px",
@@ -55,7 +57,7 @@ const SlickSlider = () => {
                 Testimonials
               </h1>
               <p
-                className="lead text"
+                className="lead text sub-header"
                 style={{
                   fontFamily: "Poppins",
                   fontWeight: "700",
@@ -63,13 +65,13 @@ const SlickSlider = () => {
                   marginTop: "-30px",
                   marginBottom: "-5px",
                   letterSpacing: "0.05em",
-                  fontSize: "25px",
                 }}
               >
                 {" "}
                 Hear what my past mentors and clients think about me
               </p>
             </Col>
+            <Col xs={1}> </Col>
           </Row>
         </Container>
       </div>

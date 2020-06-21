@@ -8,6 +8,7 @@ const Contact = () => {
       <div style={{ backgroundColor: "#F7F8FA" }}>
         <Container style={{ marginBottom: "-40px" }}>
           <h1
+            className="header-title"
             style={{
               textAlign: "center",
               paddingTop: "50px",

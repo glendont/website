@@ -28,11 +28,11 @@ const SlickSliderCard = (props) => {
                 />
               </Card.Subtitle>
               <Card.Text>{props.comments}</Card.Text>
-              <div className="image-words">
+              <div className="image-words" style={{ fontSize: "16px" }}>
                 <Image
                   style={{
-                    width: "60px",
-                    height: "60px",
+                    width: "58px",
+                    height: "58px",
                     marginTop: "-5px",
                     marginLeft: "2px",
                     marginRight: "10px",
@@ -42,7 +42,10 @@ const SlickSliderCard = (props) => {
                   roundedCircle
                 />
                 {props.name}
-                <p style={{ color: "gray" }}> {props.title} </p>
+                <p style={{ color: "gray", fontSize: "14px" }}>
+                  {" "}
+                  {props.title}{" "}
+                </p>
               </div>
 
               <Card.Link

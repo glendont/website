@@ -707,7 +707,6 @@ body {
     margin-top: -1px;
     opacity: 0.9;
     font-size: 20px;
-    /* background-color: red; */
   }
 
   .navbar-logo {
@@ -776,4 +775,26 @@ body {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* FONT  */
+
+@media screen and (max-width: 500px) {
+  .sub-header {
+    font-size: 16px;
+  }
+
+  .header-title {
+    font-size: 32px;
+  }
+
+  .sub-header-small {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .sub-header-small {
+    font-size: 16px;
+  }
 }

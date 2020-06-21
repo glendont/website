@@ -19,6 +19,7 @@ const FeaturedProjects = () => {
             <Col xs={1}> </Col>
             <Col xs={10}>
               <h1
+                className="header-title"
                 style={{
                   textAlign: "center",
                   paddingTop: "50px",
@@ -32,7 +33,7 @@ const FeaturedProjects = () => {
                 Featured Projects
               </h1>
               <p
-                className="lead text"
+                className="lead text sub-header"
                 style={{
                   fontFamily: "Poppins",
                   fontWeight: "700",
@@ -40,7 +41,6 @@ const FeaturedProjects = () => {
                   marginTop: "30px",
                   marginBottom: "30px",
                   letterSpacing: "0.05em",
-                  fontSize: "22px",
                 }}
               >
                 Always on the hunt for unique and meaningful applications of
@@ -232,9 +232,10 @@ const FeaturedProjects = () => {
                 style={{
                   backgroundColor: "#567787",
                   padding: "9px",
-                  paddingBottom: "2px",
-                  paddingTop: "2px",
+                  paddingBottom: "4px",
+                  paddingTop: "4px",
                   color: "white",
+                  fontSize: "18px",
                 }}
               >
                 View all Projects

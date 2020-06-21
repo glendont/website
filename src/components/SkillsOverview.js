@@ -47,6 +47,7 @@ const SkillsOverview = () => {
               <Col xs={1} sm={1} md={0} lg={0} xl={0}></Col>
               <Col xs={10} sm={10} lg={12}>
                 <h1
+                  className="header-title"
                   style={{
                     textAlign: "center",
                     paddingTop: "40px",
@@ -61,14 +62,13 @@ const SkillsOverview = () => {
                   Skills Overview
                 </h1>
                 <p
-                  className="lead text"
+                  className="lead text sub-header"
                   style={{
                     fontFamily: "Poppins",
                     fontWeight: "700",
                     textAlign: "center",
                     paddingBottom: "20px",
                     letterSpacing: "0.05em",
-                    fontSize: "22px",
                   }}
                 >
                   {" "}

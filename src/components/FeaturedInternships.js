@@ -24,6 +24,7 @@ const FeaturedInternships = () => {
             <Col xs={1}> </Col>
             <Col xs={10}>
               <h1
+                className="header-title"
                 style={{
                   textAlign: "center",
                   paddingTop: "50px",
@@ -37,7 +38,7 @@ const FeaturedInternships = () => {
                 Featured Internships
               </h1>
               <p
-                className="lead text"
+                className="lead text sub-header"
                 style={{
                   fontFamily: "Poppins",
                   fontWeight: "700",
@@ -45,7 +46,6 @@ const FeaturedInternships = () => {
                   marginTop: "25px",
                   marginBottom: "30px",
                   letterSpacing: "0.05em",
-                  fontSize: "22px",
                 }}
               >
                 {" "}
