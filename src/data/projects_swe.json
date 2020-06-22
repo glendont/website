@@ -47,8 +47,8 @@
     {
       "id": 3,
       "name": "Portfolio Website",
-      "desc": "A dynamic and interactive web-application to showcase my skills and experiences.",
-      "short_desc": "The very website you are on!",
+      "desc": "A dynamic and interactive web-application to showcase my skills and experiences",
+      "short_desc": "The very website you are currently on! Check out how I build it",
       "tags": ["React", "Github Pages", "Javascript", "HTML/CSS3"],
       "image": "https://i.ibb.co/q0g1m32/project.jpg",
       "demo": "",
