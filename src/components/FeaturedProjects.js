@@ -60,8 +60,9 @@ const FeaturedProjects = () => {
               style={{ paddingBottom: "20px" }}
             >
               <Card
+                className="featured-projects-card"
                 style={{
-                  width: "300px",
+                  // width: "300px",
                   paddingBottom: "20px",
                   height: "380px",
                 }}
@@ -120,8 +121,9 @@ const FeaturedProjects = () => {
               style={{ paddingBottom: "20px" }}
             >
               <Card
+                className="featured-projects-card"
                 style={{
-                  width: "300px",
+                  // width: "300px",
                   paddingBottom: "20px",
                   height: "380px",
                 }}
@@ -172,8 +174,9 @@ const FeaturedProjects = () => {
               style={{ paddingBottom: "20px" }}
             >
               <Card
+                className="featured-projects-card"
                 style={{
-                  width: "300px",
+                  // width: "300px",
                   paddingBottom: "20px",
                   height: "380px",
                 }}
