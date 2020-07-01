@@ -573,7 +573,7 @@ body {
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .burger div {
@@ -610,7 +610,7 @@ body {
   font-size: 19px;
   font-style: bold;
   letter-spacing: 1px;
-  margin-top: 10px;
+  margin-top: 2px;
 }
 .nav-links a {
   color: white;
