@@ -603,8 +603,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  position: relative;
-  left: -20%;
+  position: absolute;
+  left: 15%;
   width: 30%;
   font-family: "Poppins";
   font-size: 19px;
@@ -636,10 +636,12 @@ body {
 @media screen and (max-width: 1600px) {
   .nav-links {
     width: 40%;
+    left: 6%;
   }
 
   .navbar-logo {
     width: 20%;
+    right: 5%;
   }
 }
 
@@ -715,7 +717,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 30%;
+    width: 25%;
     font-family: "Poppins";
     font-size: 18px;
     letter-spacing: 1px;
