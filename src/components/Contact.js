@@ -1,8 +1,10 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import ContactComponent from "./ContactComponent";
 import Container from "react-bootstrap/Container";
 
 const Contact = () => {
+  const [printout, setPrintout] = useState("");
+
   return (
     <Fragment>
       <div style={{ backgroundColor: "#F7F8FA" }}>

@@ -53,7 +53,7 @@ const NavigationBar = () => {
   return (
     <nav className="navbar" style={{ backgroundColor: "#2F4049" }}>
       <ul className="nav-links">
-        <li className="nav-links-home">
+        <li className="nav-links-homepage">
           <Link to="/website" activeClassName="currentlyOn">
             Home
           </Link>{" "}
@@ -70,7 +70,7 @@ const NavigationBar = () => {
           </a>
         </li>
         <li className="nav-links-contact">
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact"> Contact</Link>
         </li>
       </ul>
 
