@@ -590,7 +590,7 @@ body {
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateY(50px);
   }
 
   100% {
@@ -694,7 +694,7 @@ body {
     left: 0px;
     height: 30vh;
     top: 6vh;
-    background-color: #2e4149;
+    background-color: #31474f;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -705,7 +705,7 @@ body {
     transition: transform 0.3s ease-in;
     z-index: 1;
     margin-top: -1px;
-    opacity: 0.9;
+    opacity: 1;
     font-size: 20px;
   }
 

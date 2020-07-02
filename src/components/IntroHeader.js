@@ -79,7 +79,14 @@ const IntroHeader = () => {
                     </Typing>
                   </h2>
 
-                  <p className="lead text-white-50 header-words-para">
+                  <p
+                    className="lead text-white-50 header-words-para"
+                    style={{
+                      animationName: "moveInLeft",
+                      animationTimingFunction: "ease-out",
+                      animationDuration: "2s",
+                    }}
+                  >
                     A computer science <u> sophomore</u> from the Renaissance
                     Engineering Programme at Nanyang Technological University. I
                     am extremely fascinated by the intersection between
@@ -90,7 +97,7 @@ const IntroHeader = () => {
                     {" "}
                     <button
                       type="button"
-                      class="btn btn-lg "
+                      class="btn btn-lg"
                       style={{
                         backgroundColor: "#46616E",
                         fontFamily: "poppins",
