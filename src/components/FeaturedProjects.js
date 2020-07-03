@@ -11,6 +11,10 @@ const FeaturedProjects = () => {
   let tags_2 = ["Django", "Machine Learning", "Pickle"];
   let tags_3 = ["ReactJS", "Flask", "Data Science", "NLP"];
 
+  const projectonClick = () => {
+    window.scrollTo(500, 0);
+  };
+
   return (
     <div style={{ paddingBottom: "30px" }}>
       <Fragment>
@@ -226,7 +230,7 @@ const FeaturedProjects = () => {
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", paddingTop: "10px" }}>
-            <Link to="/projects">
+            <Link to="/projects" onClick={projectonClick}>
               {" "}
               <button
                 href="/projects"
